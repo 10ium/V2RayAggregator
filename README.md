@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `5247`
+merge nodes w/o dup: `5083`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -552,41 +552,41 @@ merge nodes w/o dup: `5247`
 - [ALIILAPRO](https://github.com/ALIILAPRO), number of nodes: `11`
 - [Alvin9999](https://github.com/Alvin9999), number of nodes: `1000`
 - [Ashkan-m](https://github.com/Ashkan-m), number of nodes: `39`
-- [AzadNet](https://t.me/AzadNet), number of nodes: `892`
-- [Barabama](https://github.com/Barabama), number of nodes: `236`
+- [AzadNet](https://t.me/AzadNet), number of nodes: `937`
+- [Barabama](https://github.com/Barabama), number of nodes: `242`
 - [Ennzo0](https://github.com/Ennzo0), number of nodes: `15`
-- [HDYOU](https://github.com/HDYOU), number of nodes: `59`
+- [HDYOU](https://github.com/HDYOU), number of nodes: `61`
 - [Huibqr](https://github.com/Huibq), number of nodes: `41`
 - [Kwinshadow](https://github.com/Kwinshadow), number of nodes: `23`
-- [Leon406](https://github.com/Leon406), number of nodes: `563`
+- [Leon406](https://github.com/Leon406), number of nodes: `349`
 - [NiREvil](https://github.com/NiREvil), number of nodes: `359`
 - [ResistalProxy](https://github.com/ResistalProxy), number of nodes: `18`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx), number of nodes: `178`
+- [aiboboxx/v2rayfree](https://github.com/aiboboxx), number of nodes: `182`
 - [ermaozi/get_subscribe](https://github.com/ermaozi), number of nodes: `25`
 - [ermaozi01/free_clash_vpn](https://github.com/ermaozi01), number of nodes: `18`
-- [free18/v2ray](https://github.com/free18), number of nodes: `166`
+- [free18/v2ray](https://github.com/free18), number of nodes: `97`
 - [hfarahani/vv](https://github.com/hfarahani), number of nodes: `43`
-- [mahsanet/MahsaFreeConfig](https://github.com/mahsanet), number of nodes: `101`
+- [mahsanet/MahsaFreeConfig](https://github.com/mahsanet), number of nodes: `105`
 - [ndsphonemy/proxy-sub](https://github.com/ndsphonemy), number of nodes: `120`
-- [peasoft/NoMoreWalls](https://github.com/peasoft), number of nodes: `178`
+- [peasoft/NoMoreWalls](https://github.com/peasoft), number of nodes: `182`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian), number of nodes: `24`
 - [theGreatPeter/v2rayNodes](https://github.com/theGreatPeter), number of nodes: `2`
 - [ts-sf/fly](https://github.com/ts-sf), number of nodes: `201`
-- [soroushmirzaei/telegram-configs-collector](https://github.com/soroushmirzaei), number of nodes: `2410`
-- [10ium/V2Hub3](https://github.com/10ium/V2Hub3), number of nodes: `428`
-- [10ium/multi-proxy-config-fetcher](https://github.com/10ium/multi-proxy-config-fetcher), number of nodes: `242`
-- [http://66.42.50.118:12580](http://66.42.50.118:12580/clash/proxies), number of nodes: `64`
-- [Ruk1ng001/freeSub](https://github.com/Ruk1ng001/freeSub), number of nodes: `355`
-- [SnapdragonLee/SystemProxy](https://github.com/SnapdragonLee/SystemProxy), number of nodes: `102`
-- [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `29`
+- [soroushmirzaei/telegram-configs-collector](https://github.com/soroushmirzaei), number of nodes: `2422`
+- [10ium/V2Hub3](https://github.com/10ium/V2Hub3), number of nodes: `421`
+- [10ium/multi-proxy-config-fetcher](https://github.com/10ium/multi-proxy-config-fetcher), number of nodes: `243`
+- [http://66.42.50.118:12580](http://66.42.50.118:12580/clash/proxies), number of nodes: `54`
+- [Ruk1ng001/freeSub](https://github.com/Ruk1ng001/freeSub), number of nodes: `336`
+- [SnapdragonLee/SystemProxy](https://github.com/SnapdragonLee/SystemProxy), number of nodes: `127`
+- [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `30`
 - [clashe.eu.org](https://clashe.eu.org/clash/proxies), number of nodes: `16`
 - [firefoxmmx2/v2rayshare_subcription](https://github.com/firefoxmmx2/v2rayshare_subcription), number of nodes: `27`
-- [lagzian](https://github.com/lagzian), number of nodes: `288`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `581`
-- [proxypool.link](https://proxypool.link/clash/proxies), number of nodes: `345`
+- [lagzian](https://github.com/lagzian), number of nodes: `300`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `531`
+- [proxypool.link](https://proxypool.link/clash/proxies), number of nodes: `296`
 - [ronghuaxueleng](https://github.com/ronghuaxueleng), number of nodes: `374`
-- [snakem982](https://github.com/snakem982/proxypool), number of nodes: `246`
-- [tt.vg/freeclash](https://tt.vg/freeclash), number of nodes: `24`
+- [snakem982](https://github.com/snakem982/proxypool), number of nodes: `199`
+- [tt.vg/freeclash](https://tt.vg/freeclash), number of nodes: `39`
 
 ## Softwares
 
