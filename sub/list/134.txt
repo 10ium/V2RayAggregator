@@ -7,279 +7,328 @@
   - {name: 🇫🇷 FR-57.128.190.110-006, server: 57.128.190.110, port: 11703, type: ss, cipher: chacha20-ietf-poly1305, password: d275849ebcfcec7e}
   - {name: RELAY-172.67.200.13-007, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}}
   - {name: 🇫🇷 FR-107.191.63.241-008, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c}
-  - {name: 🇨🇳 CN-36.151.251.62-009, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-010, server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, port: 15229, type: trojan, password: 1a7f2766-e24d-11ed-98a7-f23c913c8d2b, sni: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.236.51.38-011, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.238.90.8-012, server: 183.238.90.8, port: 41766, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US-38.150.12.188-013, server: aflzzul.meiquankongjian.com, port: 52512, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}}
-  - {name: 🇨🇳 CN-157.148.96.94-014, server: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, port: 15229, type: trojan, password: e542ec26-b786-11ee-9a75-f23c91cfbbc9, sni: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-015, server: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, port: 15229, type: trojan, password: 4d78032e-d27c-11ef-bd97-f23c9164ca5d, sni: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-111.26.109.79-016, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 CN-36.151.251.61-017, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.238.90.8-018, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-1.65.139.208-019, server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net}}}
-  - {name: 🇨🇳 CN-183.240.180.16-020, server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com, port: 17232, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: TR-202.78.162.5-021, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
-  - {name: RELAY-104.21.23.231-022, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}}
-  - {name: RELAY-104.21.48.1-023, server: hk2.lrzdx.uk, port: 443, type: vmess, uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /register, headers: {Host: hk2.lrzdx.uk}}}
-  - {name: 🇨🇳 CN-120.234.102.229-024, server: 120.234.102.229, port: 49174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-1.65.139.208-025, server: 7df05a40-svwf40-sxe8ph-mubp.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 1bcadc88-4741-11ee-ae2e-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 7df05a40-svwf40-sxe8ph-mubp.hgc1.tcpbbr.net}}}
-  - {name: 🇨🇳 CN-36.150.94.35-026, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇺🇸 US-45.39.199.105-027, server: 15074.kuaiyin02.top, port: 15074, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: RELAY-104.21.44.248-028, server: xxxsde4.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xxxsde4.freevpnatm2025.dpdns.org}}}
-  - {name: RELAY-104.21.112.1-029, server: 2sdfre3.999820.xyz, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: 2sdfre3.999820.xyz}}}
-  - {name: 🇨🇳 CN-59.42.247.235-030, server: 910281.chasel.sbs, port: 21227, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F}
-  - {name: 🇨🇳 CN-183.2.157.135-031, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 0S43J3FD6L7IEKGQ}
-  - {name: 🇨🇳 CN-58.246.138.244-032, server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
-  - {name: SK-156.146.40.194-033, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 CN-183.236.51.38-034, server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-035, server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-38.47.96.30-036, server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
-  - {name: 🇰🇷 KR-125.141.31.72-037, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 CN-111.26.109.79-038, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇩🇪 DE-5.39.249.119-039, server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: de.vmess.comnpmjs.com, grpc-opts: {grpc-service-name: /}}
-  - {name: 🇭🇰 HK-1.65.139.208-040, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇨🇳 CN-157.148.96.92-041, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-042, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-43.203.240.196-043, server: 43.203.240.196, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 🇨🇳 CN-183.2.157.135-044, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X}
-  - {name: 🇭🇰 HK-1.65.250.168-045, server: hkkh11v1.xpmc.cc, port: 34566, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
-  - {name: 🇨🇳 CN-183.236.51.38-046, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-48.218.11.10-047, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-048, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-111.26.109.79-049, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-120.232.153.40-050, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-163.177.45.154-051, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇭🇰 HK-43.226.17.17-052, server: 43.226.17.17, port: 50494, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
-  - {name: 🇨🇳 CN-183.240.180.16-053, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.233.147.160-054, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
-  - {name: 🇰🇷 KR-125.141.26.12-055, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 CN-36.150.94.35-056, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 CN-183.2.157.135-057, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: PIPLH14SPUJNGOS8}
-  - {name: 🇨🇳 CN-163.177.45.154-058, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇨🇳 CN-111.26.109.79-059, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-111.26.109.79-060, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 CN-120.236.197.104-061, server: cm55-zz.moonwang.xyz, port: 54322, type: ss, cipher: chacha20-ietf-poly1305, password: 26270a5c-cc66-4bb5-b058-c75d09d615e5}
-  - {name: VN-103.186.154.29-062, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇰🇷 KR-43.203.240.196-063, server: 43.203.240.196, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
+  - {name: 🇫🇷 FR-193.243.147.128-009, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
+  - {name: RELAY-104.21.82.183-010, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
+  - {name: 🇯🇵 JP-54.238.92.40-011, server: tls.07.node-for-bigairport.win, port: 44443, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}}
+  - {name: 🇨🇳 CN-120.233.44.201-012, server: 120.233.44.201, port: 21102, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: 120.233.44.201, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.198.71.219-013, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.237.60.51-014, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
+  - {name: RELAY-104.21.112.1-015, server: 104.21.112.1, port: 2053, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cc2d4.988988.shop}}}
+  - {name: 🇺🇸 US-94.131.20.3-016, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: false}
+  - {name: RELAY-104.21.64.1-017, server: 104.21.64.1, port: 2096, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cc2d1.988988.shop}}}
+  - {name: IR-178.22.121.98-018, server: 178.22.121.98, port: 1091, type: vmess, uuid: 6ef3b433-eea7-4e5d-95a5-c5f742ce2fb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-36.151.251.62-019, server: 36.151.251.62, port: 13542, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-020, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RELAY-104.21.44.248-021, server: xxxsde4.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xxxsde4.freevpnatm2025.dpdns.org}}}
+  - {name: 🇨🇳 CN-36.150.94.35-022, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇺🇸 US-94.131.20.3-023, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: false}
+  - {name: RELAY-5.182.84.244-024, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-025, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-026, server: 183.236.51.38, port: 33919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.234.102.229-027, server: 120.234.102.229, port: 49174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-028, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: false}
+  - {name: 🇫🇷 FR-15.188.131.37-029, server: 15.188.131.37, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-58.246.138.244-030, server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
+  - {name: SK-156.146.40.194-031, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇳 CN-183.236.51.38-032, server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-033, server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-38.47.96.30-034, server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
+  - {name: 🇰🇷 KR-125.141.31.72-035, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇨🇳 CN-111.26.109.79-036, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇩🇪 DE-5.39.249.119-037, server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: de.vmess.comnpmjs.com, grpc-opts: {grpc-service-name: /}}
+  - {name: 🇭🇰 HK-1.65.207.132-038, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇨🇳 CN-157.148.96.92-039, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-040, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-3.35.54.68-041, server: 3.35.54.68, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇨🇳 CN-183.2.157.135-042, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X}
+  - {name: 🇭🇰 HK-1.65.250.168-043, server: hkkh11v1.xpmc.cc, port: 27693, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
+  - {name: 🇨🇳 CN-183.236.51.38-044, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-20.2.156.38-045, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-046, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-111.26.109.79-047, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-120.232.153.40-048, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.233.147.160-049, server: jg647hf446ghvw.gym0boy.com, port: 16100, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-163.177.45.154-050, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 HK-43.226.17.17-051, server: 43.226.17.17, port: 25356, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
+  - {name: 🇨🇳 CN-183.2.157.134-052, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: 6EZ5QKFX60AVSUYT}
+  - {name: 🇨🇳 CN-120.233.147.160-053, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-36.150.94.35-054, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-120.233.147.160-055, server: jg647hf446ghvw.gym0boy.com, port: 44054, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-120.241.29.13-056, server: sg1.qqingca.cc, port: 20347, type: ss, cipher: chacha20-ietf-poly1305, password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2}
+  - {name: 🇰🇷 KR-125.141.26.12-057, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 KR-27.255.82.135-058, server: p080.panda001.net, port: 36379, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇨🇳 CN-163.177.45.154-059, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇨🇳 CN-111.26.109.79-060, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-111.26.109.79-061, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-183.2.157.134-062, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17005, type: ss, cipher: aes-256-gcm, password: 2Z11BX63H64YSEDM}
+  - {name: 🇰🇷 KR-3.35.54.68-063, server: 3.35.54.68, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
   - {name: 🇨🇳 CN-183.2.157.135-064, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206RU5ZR09ORFU5NFVXMUc2WA}
   - {name: 🇨🇳 CN-183.236.51.38-065, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇨🇳 CN-120.232.153.40-066, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇨🇳 CN-120.232.153.40-067, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.240.180.16-068, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.233.147.160-069, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
-  - {name: 🇰🇷 KR-125.141.26.12-071, server: 125.141.26.12, port: 4857, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
-  - {name: 🇨🇳 CN-183.2.157.135-072, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206UElQTEgxNFNQVUpOR09TOA}
-  - {name: 🇨🇳 CN-120.236.197.104-073, server: cm55-zz.moonwang.xyz, port: 54322, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNjI3MGE1Yy1jYzY2LTRiYjUtYjA1OC1jNzVkMDlkNjE1ZTU}
-  - {name: VN-103.186.154.29-074, server: 103.186.154.29, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: RELAY-188.164.159.241-075, server: 188.164.159.241, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-076, server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, port: 15229, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-077, server: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, port: 15229, type: trojan, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, sni: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-078, server: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, port: 15229, type: trojan, password: 659b0268-92ca-11ef-b3af-f23c913c8d2b, sni: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-079, server: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, port: 15229, type: trojan, password: f9c35596-f323-11ed-8ccd-f23c91cfbbc9, sni: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-080, server: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, port: 15229, type: trojan, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, sni: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-081, server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, port: 15229, type: trojan, password: 1a7f2766-e24d-11ed-98a7-f23c913c8d2b, sni: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-082, server: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, port: 15229, type: trojan, password: 4d78032e-d27c-11ef-bd97-f23c9164ca5d, sni: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-083, server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, port: 15229, type: trojan, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-084, server: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, port: 15229, type: trojan, password: e542ec26-b786-11ee-9a75-f23c91cfbbc9, sni: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-085, server: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, port: 15229, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-086, server: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, port: 15229, type: trojan, password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b, sni: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-087, server: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, port: 15229, type: trojan, password: e3004917-ad9d-b8a2-a2ee-65a54830e020, sni: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-088, server: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, port: 15229, type: trojan, password: 3c461e2c-9d13-11ef-8563-f23c913c8d2b, sni: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-089, server: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, port: 15229, type: trojan, password: 4faf123a-572a-11eb-8684-f23c913c8d2b, sni: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-090, server: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, port: 15229, type: trojan, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, sni: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-091, server: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, port: 15229, type: trojan, password: 602e99aa-718d-11eb-b77b-f23c913c8d2b, sni: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, skip-cert-verify: false}
-  - {name: RELAY-103.116.7.103-092, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-112.184.209.63-093, server: 112.184.209.63, port: 12088, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: NO-95.164.38.151-094, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: false}
-  - {name: RELAY-5.182.84.244-095, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-92.53.190.161-096, server: 92.53.190.161, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-163.177.45.154-097, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇭🇰 HK-1.65.250.168-098, server: hkkh11v1.xpmc.cc, port: 34566, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
-  - {name: 🇭🇰 HK-43.226.17.17-099, server: 43.226.17.17, port: 50494, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
+  - {name: 🇨🇳 CN-120.233.147.160-068, server: jg647hf446ghvw.gym0boy.com, port: 16100, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
+  - {name: 🇨🇳 CN-183.2.157.134-069, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206NkVaNVFLRlg2MEFWU1VZVA}
+  - {name: 🇨🇳 CN-120.233.147.160-070, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
+  - {name: 🇨🇳 CN-120.233.147.160-072, server: jg647hf446ghvw.gym0boy.com, port: 44054, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
+  - {name: 🇨🇳 CN-120.241.29.13-073, server: sg1.qqingca.cc, port: 20347, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YTBiMjYzOC04NDE2LTQyYzEtYjg3ZS05OTg2NGIzZDNlZjI}
+  - {name: 🇰🇷 KR-125.141.26.12-074, server: 125.141.26.12, port: 4857, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: 🇰🇷 KR-27.255.82.135-075, server: p080.panda001.net, port: 36379, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: 🇨🇳 CN-183.2.157.134-076, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17005, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206MloxMUJYNjNINjRZU0VETQ}
+  - {name: RELAY-188.164.159.241-077, server: 188.164.159.241, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-078, server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, port: 15229, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-079, server: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, port: 15229, type: trojan, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, sni: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.92-080, server: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, port: 15229, type: trojan, password: 659b0268-92ca-11ef-b3af-f23c913c8d2b, sni: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-081, server: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, port: 15229, type: trojan, password: f9c35596-f323-11ed-8ccd-f23c91cfbbc9, sni: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.92-082, server: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, port: 15229, type: trojan, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, sni: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-083, server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, port: 15229, type: trojan, password: 1a7f2766-e24d-11ed-98a7-f23c913c8d2b, sni: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-084, server: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, port: 15229, type: trojan, password: 4d78032e-d27c-11ef-bd97-f23c9164ca5d, sni: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-085, server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, port: 15229, type: trojan, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.92-086, server: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, port: 15229, type: trojan, password: e542ec26-b786-11ee-9a75-f23c91cfbbc9, sni: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-087, server: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, port: 15229, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-088, server: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, port: 15229, type: trojan, password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b, sni: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-089, server: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, port: 15229, type: trojan, password: e3004917-ad9d-b8a2-a2ee-65a54830e020, sni: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-090, server: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, port: 15229, type: trojan, password: 3c461e2c-9d13-11ef-8563-f23c913c8d2b, sni: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-091, server: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, port: 15229, type: trojan, password: 4faf123a-572a-11eb-8684-f23c913c8d2b, sni: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.92-092, server: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, port: 15229, type: trojan, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, sni: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-093, server: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, port: 15229, type: trojan, password: 602e99aa-718d-11eb-b77b-f23c913c8d2b, sni: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, skip-cert-verify: false}
+  - {name: RELAY-103.116.7.103-094, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-112.184.209.63-095, server: 112.184.209.63, port: 12088, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: NO-95.164.38.151-096, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: false}
+  - {name: RELAY-5.182.84.244-097, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-92.53.190.161-098, server: 92.53.190.161, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-163.177.45.154-099, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
   - {name: 🇨🇳 CN-163.177.45.154-100, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: RELAY-45.150.115.195-101, server: 45.150.115.195, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.36-102, server: 108.165.152.36, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-45.67.214.3-103, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-154.197.64.67-104, server: 154.197.64.67, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.14-105, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-59.29.143.247-106, server: 59.29.143.247, port: 12225, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-162.159.152.11-107, server: 162.159.152.11, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US-161.145.150.26-108, server: 161.145.150.26, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-125.133.178.233-109, server: 125.133.178.233, port: 10013, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US-192.18.134.22-110, server: 192.18.134.22, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-220.118.248.123-111, server: 220.118.248.123, port: 12302, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-121.133.117.221-112, server: 121.133.117.221, port: 50000, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: KZ-194.76.18.177-113, server: 194.76.18.177, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-162.159.153.212-114, server: 162.159.153.212, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-121.133.117.221-115, server: 121.133.117.221, port: 50000, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-121.151.132.168-116, server: 121.151.132.168, port: 18058, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US-154.7.181.207-117, server: 154.7.181.207, port: 40893, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US-65.75.194.43-118, server: 65.75.194.43, port: 10511, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-172.64.33.128-119, server: kip.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-220.81.80.96-120, server: 220.81.80.96, port: 12318, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-112.184.209.63-121, server: 112.184.209.63, port: 12088, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-154.197.64.166-122, server: 154.197.64.166, port: 2053, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-154.211.8.152-123, server: 154.211.8.152, port: 2053, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.225-124, server: 108.165.152.225, port: 2083, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-220.120.172.116-125, server: 220.120.172.116, port: 33522, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.59-126, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-188.164.159.55-127, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-45.67.214.3-128, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-154.197.64.27-129, server: 154.197.64.27, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: KZ-194.76.18.177-130, server: 194.76.18.177, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.14-131, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-27.50.48.154-132, server: 27.50.48.154, port: 8443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-103.116.7.248-133, server: 103.116.7.248, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.36-134, server: 108.165.152.36, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇷🇺 RU-45.67.215.148-135, server: 45.67.215.148, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-154.197.64.67-136, server: 154.197.64.67, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-154.197.64.27-137, server: 154.197.64.27, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇷🇺 RU-45.67.215.148-138, server: 45.67.215.148, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-104.129.166.131-139, server: 104.129.166.131, port: 8443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-125.133.178.233-140, server: 125.133.178.233, port: 10013, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-188.164.159.171-141, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.143-142, server: 108.165.152.143, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-220.120.172.116-143, server: 220.120.172.116, port: 33522, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-188.164.159.55-144, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-188.164.159.171-145, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-92.53.190.161-146, server: 92.53.190.161, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-43.226.17.17-101, server: 43.226.17.17, port: 25356, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
+  - {name: 🇭🇰 HK-1.65.250.168-102, server: hkkh11v1.xpmc.cc, port: 27693, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
+  - {name: 🇨🇳 CN-47.104.186.133-103, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-47.104.186.133-104, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-47.116.166.178-105, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-47.92.152.169-106, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-47.92.152.169-107, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.210.205.59-108, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-112.132.215.12-109, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.26.55.225-110, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US-67.226.221.146-111, server: 67.226.221.146, port: 80, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-121.145.126.10-112, server: 121.145.126.10, port: 12578, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-220.120.172.116-113, server: 220.120.172.116, port: 33522, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-121.133.117.221-114, server: 121.133.117.221, port: 50000, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-211.195.83.140-115, server: 211.195.83.140, port: 50003, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-14.42.89.42-116, server: 14.42.89.42, port: 50004, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-210.95.195.69-117, server: 210.95.195.69, port: 12336, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-67.226.221.239-118, server: 67.226.221.239, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-210.100.138.35-119, server: 210.100.138.35, port: 17779, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-121.133.117.221-120, server: 121.133.117.221, port: 50000, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-125.133.178.233-121, server: 125.133.178.233, port: 10013, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-112.161.49.84-122, server: 112.161.49.84, port: 11681, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-204.110.220.206-123, server: 204.110.220.206, port: 80, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: KZ-194.76.18.177-124, server: 194.76.18.177, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-220.118.248.123-125, server: 220.118.248.123, port: 12302, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-188.164.159.171-126, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-45.194.53.81-127, server: 45.194.53.81, port: 2087, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-199.34.228.143-128, server: 199.34.228.143, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇷🇺 RU-45.67.215.148-129, server: 45.67.215.148, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-77.232.140.7-130, server: 77.232.140.7, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.14-131, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-188.164.159.171-132, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-45.67.214.140-133, server: 45.67.214.140, port: 8443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-192.200.160.15-134, server: 192.200.160.15, port: 8443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.59-135, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-135.84.74.254-136, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-103.116.7.152-137, server: 103.116.7.152, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-154.197.64.166-138, server: 154.197.64.166, port: 2053, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-162.159.152.11-139, server: 162.159.152.11, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: PE-154.219.5.65-140, server: 154.219.5.65, port: 2087, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: KZ-194.76.18.177-141, server: 194.76.18.177, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-155.46.213.38-142, server: 155.46.213.38, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-154.197.64.27-143, server: 154.197.64.27, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-27.50.49.136-144, server: 27.50.49.136, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-154.197.64.166-145, server: 154.197.64.166, port: 2053, type: trojan, password: Aimer, sni: epmw.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.175-146, server: 108.165.152.175, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
   - {name: RELAY-108.165.152.59-147, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-104.129.166.131-148, server: 104.129.166.131, port: 8443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-154.197.64.166-149, server: 154.197.64.166, port: 2053, type: trojan, password: Aimer, sni: epmw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-108.165.152.249-150, server: 108.165.152.249, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-221.158.163.251-151, server: 221.158.163.251, port: 10081, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US-154.7.181.207-152, server: 154.7.181.207, port: 40893, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-220.118.248.123-153, server: 220.118.248.123, port: 12302, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-104.17.223.37-154, server: 104.17.223.37, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.236.51.36-155, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-47.104.186.133-156, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-112.132.215.12-157, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-39.113.223.191-158, server: 39.113.223.191, port: 11111, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-47.92.152.169-159, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.210.205.59-160, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-47.116.166.178-161, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-162, server: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net, port: 15229, type: trojan, password: 3e6ae2e4-a8a5-11ef-8578-f23c913c8d2b, sni: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-48.218.11.10-163, server: kz.mjt000.com, port: 443, type: trojan, password: ea17601d-8ebf-4431-b815-4d644821ca7e, sni: kz.mjt000.com, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-36.151.251.62-164, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-20.2.156.38-165, server: kz.mjt000.com, port: 443, type: trojan, password: ea17601d-8ebf-4431-b815-4d644821ca7e, sni: kz.mjt000.com, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-166, server: f5ada702-swb8g0-t5fh9u-1uni.cu.plebai.net, port: 15229, type: trojan, password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-36.151.251.62-167, server: 36.151.251.62, port: 13542, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-48.218.11.10-168, server: kz.mjt000.com, port: 443, type: trojan, password: ea17601d-8ebf-4431-b815-4d644821ca7e, sni: kz.mjt000.com, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.198.71.219-169, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.41-170, server: 120.232.153.41, port: 41491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.198.71.219-171, server: 120.198.71.219, port: 51095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.234.102.229-172, server: 120.234.102.229, port: 49174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-173, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-174, server: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net, port: 15229, type: trojan, password: 3e6ae2e4-a8a5-11ef-8578-f23c913c8d2b, sni: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.238.90.8-175, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.198.44.126-176, server: 120.198.44.126, port: 47883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.237.84.53-177, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-178, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-179, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.236.51.38-180, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.236.51.38-181, server: 183.236.51.38, port: 33919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.240.180.16-182, server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com, port: 17232, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.198.71.216-183, server: 120.198.71.216, port: 35921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-184, server: 120.232.153.40, port: 50152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.236.51.38-185, server: 183.236.51.38, port: 30052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.240.228.221-186, server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net, port: 15229, type: vmess, uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.63-187, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.236.51.38-188, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.240.180.16-189, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.236.51.38-190, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.238.90.8-191, server: 183.238.90.8, port: 41766, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.238.90.8-192, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-48.218.11.10-193, server: kz.mjt000.com, port: 443, type: trojan, password: ea17601d-8ebf-4431-b815-4d644821ca7e, sni: kz.mjt000.com, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-43.203.240.196-194, server: 43.203.240.196, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 🇨🇳 CN-183.2.157.135-195, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X}
-  - {name: 🇭🇰 HK-1.65.250.168-196, server: hkkh11v1.xpmc.cc, port: 34566, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
-  - {name: 🇨🇳 CN-183.236.51.38-197, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-20.2.156.38-198, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-199, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-111.26.109.79-200, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-111.26.109.79-201, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-111.26.109.79-202, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-120.232.153.40-203, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-163.177.45.154-204, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇭🇰 HK-43.226.17.17-205, server: 43.226.17.17, port: 50494, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
-  - {name: 🇨🇳 CN-183.240.180.16-206, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.233.147.160-207, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
-  - {name: 🇰🇷 KR-125.141.26.12-209, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 CN-36.150.94.35-210, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 CN-183.236.51.38-211, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.2.157.135-212, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: PIPLH14SPUJNGOS8}
-  - {name: 🇨🇳 CN-163.177.45.154-213, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇨🇳 CN-111.26.109.79-214, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-111.26.109.79-215, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 CN-120.236.197.104-216, server: cm55-zz.moonwang.xyz, port: 54322, type: ss, cipher: chacha20-ietf-poly1305, password: 26270a5c-cc66-4bb5-b058-c75d09d615e5}
-  - {name: 🇨🇳 CN-111.26.109.79-217, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: VN-103.186.154.29-218, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇨🇳 CN-58.246.138.244-219, server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
-  - {name: SK-156.146.40.194-220, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 CN-183.236.51.38-221, server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-222, server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-38.47.96.30-223, server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
-  - {name: 🇰🇷 KR-125.141.31.72-224, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 CN-111.26.109.79-225, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇩🇪 DE-5.39.249.119-226, server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: de.vmess.comnpmjs.com, grpc-opts: {grpc-service-name: /}}
-  - {name: 🇭🇰 HK-1.65.139.208-227, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇨🇳 CN-157.148.96.92-228, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-229, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-43.203.240.196-230, server: 43.203.240.196, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 🇨🇳 CN-183.2.157.135-231, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X}
-  - {name: 🇭🇰 HK-1.65.250.168-232, server: hkkh11v1.xpmc.cc, port: 34566, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
-  - {name: 🇨🇳 CN-183.236.51.38-233, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-48.218.11.10-234, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-235, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-111.26.109.79-236, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-120.232.153.40-237, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-163.177.45.154-238, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇭🇰 HK-43.226.17.17-239, server: 43.226.17.17, port: 50494, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
-  - {name: 🇨🇳 CN-183.240.180.16-240, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.233.147.160-241, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
-  - {name: 🇰🇷 KR-125.141.26.12-242, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 CN-36.150.94.35-243, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 CN-183.2.157.135-244, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: PIPLH14SPUJNGOS8}
-  - {name: 🇨🇳 CN-163.177.45.154-245, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇨🇳 CN-111.26.109.79-246, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 CN-111.26.109.79-247, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 CN-120.236.197.104-248, server: cm55-zz.moonwang.xyz, port: 54322, type: ss, cipher: chacha20-ietf-poly1305, password: 26270a5c-cc66-4bb5-b058-c75d09d615e5}
-  - {name: VN-103.186.154.29-249, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇰🇷 KR-43.203.240.196-250, server: 43.203.240.196, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
-  - {name: 🇨🇳 CN-183.2.157.135-251, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206RU5ZR09ORFU5NFVXMUc2WA}
-  - {name: 🇨🇳 CN-183.236.51.38-252, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-253, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.232.153.40-254, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-183.240.180.16-255, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.233.147.160-256, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
-  - {name: 🇰🇷 KR-125.141.26.12-258, server: 125.141.26.12, port: 4857, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
-  - {name: 🇨🇳 CN-183.2.157.135-259, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206UElQTEgxNFNQVUpOR09TOA}
-  - {name: 🇨🇳 CN-120.236.197.104-260, server: cm55-zz.moonwang.xyz, port: 54322, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNjI3MGE1Yy1jYzY2LTRiYjUtYjA1OC1jNzVkMDlkNjE1ZTU}
-  - {name: VN-103.186.154.29-261, server: 103.186.154.29, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: RELAY-188.164.159.241-262, server: 188.164.159.241, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-263, server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, port: 15229, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-264, server: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, port: 15229, type: trojan, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, sni: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-265, server: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, port: 15229, type: trojan, password: 659b0268-92ca-11ef-b3af-f23c913c8d2b, sni: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-266, server: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, port: 15229, type: trojan, password: f9c35596-f323-11ed-8ccd-f23c91cfbbc9, sni: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-267, server: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, port: 15229, type: trojan, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, sni: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-268, server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, port: 15229, type: trojan, password: 1a7f2766-e24d-11ed-98a7-f23c913c8d2b, sni: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-269, server: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, port: 15229, type: trojan, password: 4d78032e-d27c-11ef-bd97-f23c9164ca5d, sni: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-270, server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, port: 15229, type: trojan, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-271, server: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, port: 15229, type: trojan, password: e542ec26-b786-11ee-9a75-f23c91cfbbc9, sni: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-272, server: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, port: 15229, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-273, server: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, port: 15229, type: trojan, password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b, sni: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-274, server: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, port: 15229, type: trojan, password: e3004917-ad9d-b8a2-a2ee-65a54830e020, sni: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.92-275, server: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, port: 15229, type: trojan, password: 3c461e2c-9d13-11ef-8563-f23c913c8d2b, sni: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-276, server: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, port: 15229, type: trojan, password: 4faf123a-572a-11eb-8684-f23c913c8d2b, sni: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.89-277, server: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, port: 15229, type: trojan, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, sni: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-157.148.96.94-278, server: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, port: 15229, type: trojan, password: 602e99aa-718d-11eb-b77b-f23c913c8d2b, sni: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, skip-cert-verify: false}
-  - {name: RELAY-103.116.7.103-279, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-112.184.209.63-280, server: 112.184.209.63, port: 12088, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: NO-95.164.38.151-281, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: false}
-  - {name: RELAY-5.182.84.244-282, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: RELAY-92.53.190.161-283, server: 92.53.190.161, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-163.177.45.154-284, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇭🇰 HK-1.65.250.168-285, server: hkkh11v1.xpmc.cc, port: 34566, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
-  - {name: 🇭🇰 HK-43.226.17.17-286, server: 43.226.17.17, port: 50494, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
-  - {name: 🇨🇳 CN-163.177.45.154-287, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: RELAY-108.165.152.36-148, server: 108.165.152.36, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.14-149, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-156.225.72.246-150, server: 156.225.72.246, port: 2087, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-125.133.178.233-151, server: 125.133.178.233, port: 10013, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.162.193.201-152, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-27.50.49.74-153, server: 27.50.49.74, port: 2087, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-31.43.179.27-154, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇷🇺 RU-45.67.215.148-155, server: 45.67.215.148, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-209.94.90.87-156, server: 209.94.90.87, port: 2087, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-160.79.105.160-157, server: 160.79.105.160, port: 8443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-31.43.179.60-158, server: 31.43.179.60, port: 2053, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-216.24.57.1-159, server: 216.24.57.1, port: 2053, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-188.164.159.55-160, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-167.68.4.131-161, server: 167.68.4.131, port: 8443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-213.241.198.56-162, server: 213.241.198.56, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-104.129.166.131-163, server: 104.129.166.131, port: 8443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-172.64.33.144-164, server: theo.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-135.84.64.77-165, server: 135.84.64.77, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.67-166, server: 108.165.152.67, port: 2053, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-104.129.166.131-167, server: 104.129.166.131, port: 8443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.241-168, server: 108.165.152.241, port: 2053, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-154.211.8.12-169, server: 154.211.8.12, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-154.197.64.252-170, server: 154.197.64.252, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-199.34.228.187-171, server: 199.34.228.187, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-154.197.64.27-172, server: 154.197.64.27, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-27.50.48.61-173, server: 27.50.48.61, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.36-174, server: 108.165.152.36, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-135.84.64.36-175, server: 135.84.64.36, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-162.159.153.212-176, server: 162.159.153.212, port: 443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-188.164.159.55-177, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-135.84.64.77-178, server: 135.84.64.77, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-211.114.180.156-179, server: 211.114.180.156, port: 14534, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-130.250.137.63-180, server: 130.250.137.63, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-220.118.248.123-181, server: 220.118.248.123, port: 12302, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-220.120.172.116-182, server: 220.120.172.116, port: 33522, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-5.182.85.255-183, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-198.62.62.61-184, server: 198.62.62.61, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-162.159.44.235-185, server: 162.159.44.235, port: 2053, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-46.254.93.52-186, server: 46.254.93.52, port: 8443, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-188.164.159.214-187, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-154.197.64.196-188, server: 154.197.64.196, port: 2087, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-108.165.152.252-189, server: 108.165.152.252, port: 2096, type: trojan, password: Aimer, sni: epmq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.233.44.201-190, server: 120.233.44.201, port: 21102, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: 120.233.44.201, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-36.151.251.61-191, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-192, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-193, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-194, server: bring-glove-shine.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bring-glove-shine.stark-industries.solutions, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-36.151.251.62-195, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-196, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-36.151.251.62-197, server: 36.151.251.62, port: 13542, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: false}
+  - {name: RELAY-104.21.25.95-198, server: 104.21.25.95, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-199, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-200, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-201, server: cache-giver-wife.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: cache-giver-wife.stark-industries.solutions, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-202, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-203, server: 120.232.153.40, port: 50152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.240.228.221-204, server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net, port: 15229, type: vmess, uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.198.71.219-205, server: 120.198.71.219, port: 51095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.238.90.8-206, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.238.90.8-207, server: 183.238.90.8, port: 41766, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-208, server: 183.236.51.38, port: 33919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.198.44.126-209, server: 120.198.44.126, port: 47883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-210, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-211, server: 183.236.51.38, port: 30052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.198.71.219-212, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-213, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.240.180.16-214, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-215, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-216, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.63-217, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US-94.131.20.3-218, server: cache-giver-wife.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.238.90.8-219, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-220, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-221, server: 183.236.51.38, port: 49191, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.198.71.216-222, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.41-223, server: 120.232.153.41, port: 41491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.198.71.216-224, server: 120.198.71.216, port: 35921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.236.51.38-225, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.237.84.53-226, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.234.102.229-227, server: 120.234.102.229, port: 49174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.237.60.51-228, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
+  - {name: RELAY-104.21.73.67-229, server: tci1.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci1.tiamoci.us.kg}}}
+  - {name: RELAY-104.21.73.67-230, server: tci1.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci1.tiamoci.us.kg}}}
+  - {name: RELAY-172.67.188.232-231, server: tci1.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci1.tiamoci.us.kg}}}
+  - {name: RELAY-172.67.188.232-232, server: tci1.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci1.tiamoci.us.kg}}}
+  - {name: RELAY-104.21.73.67-233, server: tci2.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci2.tiamoci.us.kg}}}
+  - {name: RELAY-172.67.188.232-234, server: tci3.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci3.tiamoci.us.kg}}}
+  - {name: RELAY-172.67.188.232-235, server: tci4.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci4.tiamoci.us.kg}}}
+  - {name: RELAY-172.67.188.232-236, server: tci5.tiamoci.us.kg, port: 80, type: vmess, uuid: 6075906b-1313-4ea9-acad-c07324b4becf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tci5.tiamoci.us.kg}}}
+  - {name: 🇰🇷 KR-3.35.54.68-237, server: 3.35.54.68, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇨🇳 CN-183.2.157.135-238, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X}
+  - {name: 🇭🇰 HK-1.65.250.168-239, server: hkkh11v1.xpmc.cc, port: 27693, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
+  - {name: 🇨🇳 CN-183.236.51.38-240, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-48.218.11.10-241, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-242, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-111.26.109.79-243, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-111.26.109.79-244, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-111.26.109.79-245, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-120.232.153.40-246, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.233.147.160-247, server: jg647hf446ghvw.gym0boy.com, port: 16100, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-163.177.45.154-248, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 HK-43.226.17.17-249, server: 43.226.17.17, port: 25356, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
+  - {name: 🇨🇳 CN-183.2.157.134-250, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: 6EZ5QKFX60AVSUYT}
+  - {name: 🇨🇳 CN-120.233.147.160-251, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-36.150.94.35-253, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-183.236.51.38-254, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.233.147.160-255, server: jg647hf446ghvw.gym0boy.com, port: 44054, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-120.241.29.13-256, server: sg1.qqingca.cc, port: 20347, type: ss, cipher: chacha20-ietf-poly1305, password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2}
+  - {name: 🇰🇷 KR-125.141.26.12-257, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 KR-27.255.82.135-258, server: p080.panda001.net, port: 36379, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇨🇳 CN-163.177.45.154-259, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇨🇳 CN-111.26.109.79-260, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-111.26.109.79-261, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-183.2.157.134-262, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17005, type: ss, cipher: aes-256-gcm, password: 2Z11BX63H64YSEDM}
+  - {name: 🇨🇳 CN-111.26.109.79-263, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-58.246.138.244-264, server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
+  - {name: SK-156.146.40.194-265, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇳 CN-183.236.51.38-266, server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.92-267, server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-38.47.96.30-268, server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
+  - {name: 🇰🇷 KR-125.141.31.72-269, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇨🇳 CN-111.26.109.79-270, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇩🇪 DE-5.39.249.119-271, server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: de.vmess.comnpmjs.com, grpc-opts: {grpc-service-name: /}}
+  - {name: 🇭🇰 HK-1.65.207.132-272, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇨🇳 CN-157.148.96.89-273, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-274, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-3.35.54.68-275, server: 3.35.54.68, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇨🇳 CN-183.2.157.135-276, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X}
+  - {name: 🇭🇰 HK-1.65.250.168-277, server: hkkh11v1.xpmc.cc, port: 27693, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
+  - {name: 🇨🇳 CN-183.236.51.38-278, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-20.2.156.38-279, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-280, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-111.26.109.79-281, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-120.232.153.40-282, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.233.147.160-283, server: jg647hf446ghvw.gym0boy.com, port: 16100, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-163.177.45.154-284, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 HK-43.226.17.17-285, server: 43.226.17.17, port: 25356, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
+  - {name: 🇨🇳 CN-183.2.157.134-286, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: 6EZ5QKFX60AVSUYT}
+  - {name: 🇨🇳 CN-120.233.147.160-287, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-36.150.94.35-288, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-120.233.147.160-289, server: jg647hf446ghvw.gym0boy.com, port: 44054, type: ss, cipher: chacha20-ietf-poly1305, password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00}
+  - {name: 🇨🇳 CN-120.241.29.13-290, server: sg1.qqingca.cc, port: 20347, type: ss, cipher: chacha20-ietf-poly1305, password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2}
+  - {name: 🇰🇷 KR-125.141.26.12-291, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 KR-27.255.82.135-292, server: p080.panda001.net, port: 36379, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇨🇳 CN-163.177.45.154-293, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇨🇳 CN-111.26.109.79-294, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 CN-111.26.109.79-295, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-183.2.157.134-296, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17005, type: ss, cipher: aes-256-gcm, password: 2Z11BX63H64YSEDM}
+  - {name: 🇰🇷 KR-3.35.54.68-297, server: 3.35.54.68, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
+  - {name: 🇨🇳 CN-183.2.157.135-298, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206RU5ZR09ORFU5NFVXMUc2WA}
+  - {name: 🇨🇳 CN-183.236.51.38-299, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-300, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.232.153.40-301, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.233.147.160-302, server: jg647hf446ghvw.gym0boy.com, port: 16100, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
+  - {name: 🇨🇳 CN-183.2.157.134-303, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206NkVaNVFLRlg2MEFWU1VZVA}
+  - {name: 🇨🇳 CN-120.233.147.160-304, server: jg647hf446ghvw.gym0boy.com, port: 32875, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
+  - {name: 🇨🇳 CN-120.233.147.160-306, server: jg647hf446ghvw.gym0boy.com, port: 44054, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQxYzdmNy1hMWJjLTQ3ZDgtYjMyMC05Yjc5Y2RmOGNkMDA}
+  - {name: 🇨🇳 CN-120.241.29.13-307, server: sg1.qqingca.cc, port: 20347, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YTBiMjYzOC04NDE2LTQyYzEtYjg3ZS05OTg2NGIzZDNlZjI}
+  - {name: 🇰🇷 KR-125.141.26.12-308, server: 125.141.26.12, port: 4857, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: 🇰🇷 KR-27.255.82.135-309, server: p080.panda001.net, port: 36379, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: 🇨🇳 CN-183.2.157.134-310, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17005, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206MloxMUJYNjNINjRZU0VETQ}
+  - {name: RELAY-188.164.159.241-311, server: 188.164.159.241, port: 2096, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-312, server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, port: 15229, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-313, server: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, port: 15229, type: trojan, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, sni: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-314, server: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, port: 15229, type: trojan, password: 659b0268-92ca-11ef-b3af-f23c913c8d2b, sni: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-315, server: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, port: 15229, type: trojan, password: f9c35596-f323-11ed-8ccd-f23c91cfbbc9, sni: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-316, server: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, port: 15229, type: trojan, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, sni: 2252b964-sx4v40-tee612-2r82.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.92-317, server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, port: 15229, type: trojan, password: 1a7f2766-e24d-11ed-98a7-f23c913c8d2b, sni: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-318, server: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, port: 15229, type: trojan, password: 4d78032e-d27c-11ef-bd97-f23c9164ca5d, sni: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-319, server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, port: 15229, type: trojan, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-320, server: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, port: 15229, type: trojan, password: e542ec26-b786-11ee-9a75-f23c91cfbbc9, sni: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-321, server: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, port: 15229, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-322, server: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, port: 15229, type: trojan, password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b, sni: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-323, server: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, port: 15229, type: trojan, password: e3004917-ad9d-b8a2-a2ee-65a54830e020, sni: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-324, server: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, port: 15229, type: trojan, password: 3c461e2c-9d13-11ef-8563-f23c913c8d2b, sni: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-325, server: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, port: 15229, type: trojan, password: 4faf123a-572a-11eb-8684-f23c913c8d2b, sni: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.94-326, server: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, port: 15229, type: trojan, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, sni: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.89-327, server: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, port: 15229, type: trojan, password: 602e99aa-718d-11eb-b77b-f23c913c8d2b, sni: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net, skip-cert-verify: false}
+  - {name: RELAY-103.116.7.103-328, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-112.184.209.63-329, server: 112.184.209.63, port: 12088, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: NO-95.164.38.151-330, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: false}
+  - {name: RELAY-5.182.84.244-331, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: RELAY-92.53.190.161-332, server: 92.53.190.161, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-163.177.45.154-333, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇨🇳 CN-163.177.45.154-334, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 HK-43.226.17.17-335, server: 43.226.17.17, port: 25356, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054}
+  - {name: 🇭🇰 HK-1.65.250.168-336, server: hkkh11v1.xpmc.cc, port: 27693, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
