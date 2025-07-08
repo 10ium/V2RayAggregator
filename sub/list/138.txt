@@ -1,49 +1,74 @@
-  - {name: 🇦🇺 澳大利亚 | AUS, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: de90728a-c96f-46e2-afd6-7be68123c0f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 | TWN, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: a9ff713a-497c-4ee2-86fa-cd27daff32ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 | TWN 2, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: de8b6b6e-d75c-4b86-bada-5707ad2fb21c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 | TWN 4, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: a9ff713a-497c-4ee2-86fa-cd27daff32ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 | FRA, server: 183.240.179.89, port: 31263, type: trojan, password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 | FRA 2, server: 183.240.179.89, port: 31263, type: trojan, password: 78ad2258-088d-11f0-8eab-f23c91cfbbc9, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 | FRA 3, server: 183.240.179.89, port: 31263, type: trojan, password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 | FRA 4, server: 183.240.179.89, port: 31263, type: trojan, password: aed1cc24-351d-11ef-ba52-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 3, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: de8b6b6e-d75c-4b86-bada-5707ad2fb21c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 4, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 21a74582-f139-11ed-ab21-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 香港 | HKG 9, server: ti3hyra4.slashdevslashnetslashtun.net, port: 15014, type: ss, cipher: aes-256-gcm, password: 0TZIRU68PLOYT0S2}
-  - {name: 🇭🇰 香港 | HKG 15, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:ZDM1MWRlYTQtZDViZS00YQ==}
-  - {name: 🇭🇰 香港 | HKG 16, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇮🇳 印度 | IND, server: 183.240.179.89, port: 32233, type: trojan, password: 91365a7a-46d7-11ee-a8b9-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 🇮🇳 印度 | IND 2, server: 183.240.179.89, port: 32233, type: trojan, password: 178e635a-f10f-11ec-9190-f23c91cfbbc9, skip-cert-verify: false}
-  - {name: 🇮🇳 印度 | IND 3, server: 183.240.179.89, port: 32233, type: trojan, password: e668cd78-6892-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: false}
-  - {name: 🇮🇳 印度 | IND 4, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 26d43fbb-efbd-48c4-bd01-4961c3af2d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 | KOR 3, server: 183.240.179.89, port: 31433, type: trojan, password: 541259a8-8df6-11ee-ace4-f23c913c8d2b, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 | KOR 4, server: 183.240.179.89, port: 31433, type: trojan, password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b, skip-cert-verify: false}
-  - {name: 🇲🇾 马来西亚 | MYS, server: 183.240.179.89, port: 31233, type: trojan, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, skip-cert-verify: false}
-  - {name: 🇲🇾 马来西亚 | MYS 2, server: 183.240.179.89, port: 31233, type: trojan, password: 98cedeca-99a0-11ef-bb64-f23c913c8d2b, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰 | NLD 2, server: 5.35.68.249, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epmk.ambercc.filegear-sg.me}}}
-  - {name: 🇷🇺 俄罗斯 | RUS, server: 185.143.221.140, port: 25000, type: vmess, uuid: 106ec991-7ec0-43ae-a3b3-71a9acdd50f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 | RUS 2, server: 185.143.221.140, port: 25000, type: vmess, uuid: 00ce405a-ecf6-446d-be53-2cc3a86843e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 | RUS 3, server: 185.143.221.140, port: 25000, type: vmess, uuid: f7178beb-2df3-4790-992d-da44c1c54622, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 | RUS 7, server: pop.air.3278.0tk8a3a1q4t94dler.com, port: 2062, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 182039459a34f64238143cd31ddebbc914362.taobao.com}}
-  - {name: 🇸🇬 新加坡 | SGP, server: 183.240.179.89, port: 31253, type: trojan, password: 448aff24-b2e6-11ef-97e0-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 | SGP 2, server: 183.240.179.89, port: 31253, type: trojan, password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 | SGP 3, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: aes-256-gcm, password: B5FB84IDO36DRWL1}
-  - {name: 🇸🇬 新加坡 | SGP 4, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: aes-256-gcm, password: WBQ2S6DIV4QDSDGA}
-  - {name: 🇸🇬 新加坡 | SGP 5, server: 183.240.179.89, port: 31253, type: trojan, password: 3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 | SGP 6, server: 183.240.179.89, port: 31253, type: trojan, password: d70a9508-5477-11ef-bf61-f23c913c8d2b, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 | SGP 7, server: 183.240.179.89, port: 31253, type: trojan, password: 4d631e24-97f7-11ea-8fc9-f23c913c8d2b, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 2, server: 185.143.221.140, port: 23117, type: vmess, uuid: defbdfcf-4437-472f-80e3-739649ee60b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 5, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:NWMwMzVjYzctMmZjMS00NA==}
-  - {name: 🇺🇸 美国 | USA 6, server: 103.116.7.100, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epmk.ambercc.filegear-sg.me}}}
-  - {name: 🇺🇸 美国 | USA 18, server: 185.143.221.140, port: 25000, type: vmess, uuid: c0058f19-d160-4218-8baf-8d1261e776da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 19, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epmk.ambercc.filegear-sg.me}}}
-  - {name: 🇺🇸 美国 | USA 20, server: 185.143.221.140, port: 23117, type: vmess, uuid: f7178beb-2df3-4790-992d-da44c1c54622, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 23, server: 185.143.221.140, port: 23117, type: vmess, uuid: 961d9964-4f6a-4b5c-a93e-64fe7f2fd28c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 27, server: 185.143.221.140, port: 23117, type: vmess, uuid: 10ef313f-2540-4d54-8d2f-b798272957e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 29, server: 185.143.221.140, port: 23117, type: vmess, uuid: 5b0bca45-b4ce-4d3c-abf0-d0db70d5ba79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 30, server: 185.143.221.140, port: 23117, type: vmess, uuid: 750c6469-9ef8-4454-861f-cf3969892318, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: AM_6d555_0001, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epmk.ambercc.filegear-sg.me}}}
-  - {name: ES_6d555_0023, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}}
-  - {name: KZ_6d555_0109, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epmk.ambercc.filegear-sg.me}}}
-  - {name: RU_6d555_0141, server: 46.254.93.243, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epmk.ambercc.filegear-sg.me}}}
-  - {name: US_6d555_0183, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epml.ambercc.filegear-sg.me}}}
+  - {name: 🇨🇦 加拿大 | CAN, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: a9ff713a-497c-4ee2-86fa-cd27daff32ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 | FRA, server: 183.240.179.89, port: 31263, type: trojan, password: cf7331fa-bfeb-11ed-a807-f23c913c8d2b, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 | FRA 2, server: 183.240.179.89, port: 31263, type: trojan, password: 730223f0-ef31-11ef-b5d9-f23c9164ca5d, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 | FRA 3, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: de90728a-c96f-46e2-afd6-7be68123c0f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 | FRA 4, server: 183.240.179.89, port: 31263, type: trojan, password: 1b13e20c-e778-11ef-907f-f23c913c8d2b, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 | FRA 5, server: 183.240.179.89, port: 31263, type: trojan, password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 | GBR 2, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:NWMwMzVjYzctMmZjMS00NA==}
+  - {name: 🇭🇰 香港 | HKG, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 541259a8-8df6-11ee-ace4-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 | HKG 3, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a664d16a-4e47-11ef-9d7e-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 | HKG 4, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 565e68bc-a9a5-11ee-abce-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 | HKG 5, server: w72tapyb.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: 21E2FA1TCWSPF969}
+  - {name: 🇮🇳 印度 | IND, server: 183.240.179.89, port: 32233, type: trojan, password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 | IND 2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 26d43fbb-efbd-48c4-bd01-4961c3af2d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 | IND 3, server: 183.240.179.89, port: 32233, type: trojan, password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 | IND 4, server: 183.240.179.89, port: 32233, type: trojan, password: 9c6d1142-dc2b-11ee-88c7-f23c913c8d2b, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 3, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: a02151ed-f10b-4ffc-882c-6f15770aee99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 4, server: 3.link-hub.click, port: 40255, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: 🇯🇵 日本 | JPN 5, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:OTdkNjI0YWQtM2Q4Mi00Mw==}
+  - {name: 🇯🇵 日本 | JPN 6, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇰🇷 韩国 | KOR, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 0251b28d-0f2b-40af-8c87-aa256af5a676, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 | KOR 2, server: 183.240.179.89, port: 31433, type: trojan, password: 78ad2258-088d-11f0-8eab-f23c91cfbbc9, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 | KOR 3, server: 183.240.179.89, port: 31433, type: trojan, password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 | KOR 5, server: 183.240.179.89, port: 31433, type: trojan, password: 3035b36e-679f-11ed-87fd-f23c9164ca5d, skip-cert-verify: false}
+  - {name: 🇲🇾 马来西亚 | MYS, server: 183.240.179.89, port: 31233, type: trojan, password: e668cd78-6892-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: false}
+  - {name: 🇲🇾 马来西亚 | MYS 2, server: 183.240.179.89, port: 31233, type: trojan, password: fceba144-0aa0-11ee-bf3c-f23c9164ca5d, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯 | RUS 2, server: 185.143.221.140, port: 25000, type: vmess, uuid: 7dd75168-d875-4783-86aa-1a852bf96220, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇷🇺 俄罗斯 | RUS 3, server: 185.143.221.140, port: 25000, type: vmess, uuid: 06c617ac-7ec7-4db5-b81e-58a1d28497c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡 | SGP 2, server: 183.240.179.89, port: 31253, type: trojan, password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 3, server: w72tapyb.slashdevslashnetslashtun.net, port: 16016, type: ss, cipher: aes-256-gcm, password: HM6D9FYYU4O5LK32}
+  - {name: 🇸🇬 新加坡 | SGP 4, server: w72tapyb.slashdevslashnetslashtun.net, port: 16004, type: ss, cipher: aes-256-gcm, password: LQYDNGH7MGB0M6NR}
+  - {name: 🇸🇬 新加坡 | SGP 5, server: 183.240.179.89, port: 31253, type: trojan, password: 6e313598-a088-11ea-a22e-f23c91cfbbc9, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 6, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16006, type: ss, cipher: aes-256-gcm, password: UDWZ3X7SUJLUIJH6}
+  - {name: 🇺🇸 美国 | USA 4, server: 103.160.204.1, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}}
+  - {name: 🇺🇸 美国 | USA 5, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epml.ambercc.filegear-sg.me}}}
+  - {name: 🇺🇸 美国 | USA 14, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:MDFmOGU0ZWQtMzI5Yy00MQ==}
+  - {name: 🇺🇸 美国 | USA 15, server: 185.143.221.140, port: 25000, type: vmess, uuid: 114b58bf-e76e-45df-a08f-ece05741e58e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 | USA 16, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epml.ambercc.filegear-sg.me}}}
+  - {name: 🇺🇸 美国 | USA 18, server: 185.143.221.140, port: 23117, type: vmess, uuid: 51e4bfb1-ca74-43d5-8b0b-c7cb09f4c46e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 | USA 20, server: 852301ea-sz5340-t3mmvc-1qgd1.cu2.plebai.net, port: 15229, type: trojan, password: 730223f0-ef31-11ef-b5d9-f23c9164ca5d, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 21, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epmk.ambercc.filegear-sg.me}}}
+  - {name: 🇺🇸 美国 | USA 22, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 9c3bfa3b-38da-4da8-a529-26c40b140ef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 23, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:NTEzYTFjNjMtZWVhOS00Ng==}
+  - {name: 🇺🇸 美国 | USA 30, server: 185.143.221.140, port: 23117, type: vmess, uuid: a0962439-e608-40d6-8ac1-285dec0203ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 | USA 31, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 0251b28d-0f2b-40af-8c87-aa256af5a676, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 45, server: 104.21.63.135, port: 443, type: trojan, password: fa050497-fc2a-45ee-89c0-96670c4ecb65, sni: Rrr4.8906004.xYZ, skip-cert-verify: false, network: ws, ws-opts: {path: /DZxb5QZyWgQPuXTwt, headers: {Host: Rrr4.8906004.xYZ}}}
+  - {name: 🇻🇳 越南 | VNM, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: CN_914e6_0005, server: hk.miaolianyunapp.com, port: 51106, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0006, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: aes-256-gcm, password: RK9KSYZ2M1R31PY9}
+  - {name: CN_914e6_0007, server: hk.miaolianyunapp.com, port: 51117, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0008, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16010, type: ss, cipher: aes-256-gcm, password: J1X0DNP20UK1WWBF}
+  - {name: CN_914e6_0009, server: jp.miaolianyunapp.com, port: 51127, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0010, server: jp.miaolianyunapp.com, port: 51126, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0011, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: 8FJ5866690XI2SKE}
+  - {name: CN_914e6_0012, server: hk.miaolianyunapp.com, port: 51105, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0013, server: qq.miaolianyunapp.com, port: 51179, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0014, server: jp.miaolianyunapp.com, port: 51128, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0015, server: jp.miaolianyunapp.com, port: 51123, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0016, server: 183.240.179.89, port: 31253, type: trojan, password: fceba144-0aa0-11ee-bf3c-f23c9164ca5d, skip-cert-verify: false}
+  - {name: CN_914e6_0017, server: jp.miaolianyunapp.com, port: 51131, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0018, server: jp.miaolianyunapp.com, port: 51130, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0019, server: 183.240.179.89, port: 31253, type: trojan, password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b, skip-cert-verify: false}
+  - {name: CN_914e6_0020, server: hk.miaolianyunapp.com, port: 51101, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0021, server: jp.miaolianyunapp.com, port: 51124, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0022, server: jp.miaolianyunapp.com, port: 51132, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0023, server: hk.miaolianyunapp.com, port: 51109, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0024, server: qq.miaolianyunapp.com, port: 51170, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0025, server: qh62onjn.slashdevslashnetslashtun.net, port: 18015, type: ss, cipher: aes-256-gcm, password: 37RJ0FXQNPD9JL0A}
+  - {name: CN_914e6_0026, server: jp.miaolianyunapp.com, port: 51129, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0027, server: 183.240.179.89, port: 32233, type: trojan, password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9, skip-cert-verify: false}
+  - {name: CN_914e6_0028, server: hk.miaolianyunapp.com, port: 51113, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0029, server: hk.miaolianyunapp.com, port: 51107, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0030, server: hk.miaolianyunapp.com, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08}
+  - {name: CN_914e6_0031, server: 183.240.179.89, port: 31263, type: trojan, password: fceba144-0aa0-11ee-bf3c-f23c9164ca5d, skip-cert-verify: false}
+  - {name: HK_914e6_0074, server: 43.226.17.54, port: 636, type: ss, cipher: aes-256-gcm, password: 08f0c77ed619, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: xwkr1v1.dsjsapi.net, path: /yjriebtdvghs, tls: true, mux: true, skip-cert-verify: false}}
