@@ -1,38 +1,59 @@
-  - {name: 🇨🇦 加拿大 | CAN, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23123, type: ss, cipher: chacha20-ietf-poly1305, password: 71176994-1808-419c-adb8-308490d981ff}
-  - {name: 🇨🇳 台湾 | TWN, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23207, type: ss, cipher: chacha20-ietf-poly1305, password: 6706a1e7-6b9e-4732-9521-71025769807b}
-  - {name: 🇨🇳 台湾 | TWN 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23207, type: ss, cipher: chacha20-ietf-poly1305, password: 536b4857-ad76-4eb4-ae01-be22d13e350c}
-  - {name: 🇨🇳 台湾 | TWN 6, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 5b760893-a9d0-41e4-b74d-f0775b2af54d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 | DEU 3, server: 162.159.129.11, port: 2053, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubsvip.dpdns.org}}}
-  - {name: 🇪🇸 西班牙 | ESP, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23210, type: ss, cipher: chacha20-ietf-poly1305, password: 7138b872-7029-4361-9048-9488a31be51e}
-  - {name: 🇫🇷 法国 | FRA 3, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: a5b9f621-c851-45e3-95f2-a25fd5434450, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 | GBR, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23400, type: ss, cipher: chacha20-ietf-poly1305, password: 13f45bcb-12fe-4121-9193-89d1114b2774}
-  - {name: 🇭🇰 香港 | HKG, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23503, type: trojan, password: b81c0a94-c4c3-4058-8a87-4644b2e8acbe, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23503, type: trojan, password: e74c4c20-6936-4788-8d74-9f52b237d251, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 3, server: 121.127.231.239, port: 636, type: ss, cipher: aes-256-gcm, password: 941cbc4237e0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kh36v1.dsjsapp.com, path: /tkzhhylcfuf, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 🇭🇰 香港 | HKG 4, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23200, type: ss, cipher: chacha20-ietf-poly1305, password: fa3c464e-95f4-4742-bf8b-31da0d7ba6c3}
-  - {name: 🇭🇰 香港 | HKG 6, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23503, type: trojan, password: 71176994-1808-419c-adb8-308490d981ff, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 7, server: w72tapyb.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: U06MGQ0I5O9KDHDG}
-  - {name: 🇮🇳 印度 | IND, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23131, type: ss, cipher: chacha20-ietf-poly1305, password: e4de7a5c-0436-41fb-b6dd-024bbf858145}
-  - {name: 🇮🇳 印度 | IND 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23131, type: ss, cipher: chacha20-ietf-poly1305, password: e74c4c20-6936-4788-8d74-9f52b237d251}
-  - {name: 🇮🇹 意大利 | ITA, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23143, type: ss, cipher: chacha20-ietf-poly1305, password: db7dfb87-fa6f-4fdc-ba60-89352fd49e38}
-  - {name: 🇯🇵 日本 | JPN 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23515, type: trojan, password: 536b4857-ad76-4eb4-ae01-be22d13e350c, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 | JPN 3, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 96dec8bb-e442-4025-93ee-ae7b269cb342, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 | JPN 5, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23105, type: ss, cipher: chacha20-ietf-poly1305, password: 536b4857-ad76-4eb4-ae01-be22d13e350c}
-  - {name: 🇯🇵 日本 | JPN 6, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 87f3066b-8c9f-4639-aedf-007ed5a44d9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 | JPN 7, server: tls.20.node-for-bigairport.win, port: 24102, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 | KOR 4, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23111, type: ss, cipher: chacha20-ietf-poly1305, password: 15d13de9-44a1-4305-9977-bc1abf860f70}
-  - {name: 🇱🇹 立陶宛 | LTU, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23153, type: ss, cipher: chacha20-ietf-poly1305, password: 5afa1448-eb42-49bc-913e-fa240cbe9596}
-  - {name: 🇲🇾 马来西亚 | MYS, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23526, type: trojan, password: e4de7a5c-0436-41fb-b6dd-024bbf858145, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚 | NGA, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23150, type: ss, cipher: chacha20-ietf-poly1305, password: ca82356a-59d1-4feb-8c6d-b68eeb4bd23c}
-  - {name: 🇳🇱 荷兰 | NLD 3, server: log.bpminecraft.com, port: 443, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}}
-  - {name: 🇸🇬 新加坡 | SGP 2, server: qh62onjn.slashdevslashnetslashtun.net, port: 16011, type: ss, cipher: aes-256-gcm, password: Z953WXFF9RU58HUX}
-  - {name: 🇸🇬 新加坡 | SGP 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23511, type: trojan, password: b81c0a94-c4c3-4058-8a87-4644b2e8acbe, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 | SGP 5, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16009, type: ss, cipher: aes-256-gcm, password: V06YOWVVBA4SQB18}
-  - {name: 🇸🇬 新加坡 | SGP 6, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 🇸🇬 新加坡 | SGP 8, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23513, type: trojan, password: e74c4c20-6936-4788-8d74-9f52b237d251, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇹🇭 泰国 | THA, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23127, type: ss, cipher: chacha20-ietf-poly1305, password: 15d13de9-44a1-4305-9977-bc1abf860f70}
-  - {name: 🇹🇭 泰国 | THA 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23127, type: ss, cipher: chacha20-ietf-poly1305, password: b81c0a94-c4c3-4058-8a87-4644b2e8acbe}
-  - {name: 🇺🇸 美国 | USA 6, server: www.speedtest.net, port: 8443, type: trojan, password: "L8U}dsK&!p[3", sni: 0HvsNO270bvRxG6EKbY8uMsQn-6941Fa.paGeS.dEV, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr03UmdqNDGl46xp6G?ed=2560", headers: {Host: 0HvsNO270bvRxG6EKbY8uMsQn-6941Fa.paGeS.dEV}}}
-  - {name: 🇺🇸 美国 | USA 8, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 2e4c949c-8d53-457d-a6ba-6c8ff7306527, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 19, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23519, type: trojan, password: 536b4857-ad76-4eb4-ae01-be22d13e350c, sni: cn.bing.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 22, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23117, type: ss, cipher: chacha20-ietf-poly1305, password: 13f45bcb-12fe-4121-9193-89d1114b2774}
+  - {name: 🇦🇪 阿联酋 | ARE, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23157, type: ss, cipher: chacha20-ietf-poly1305, password: f8d99daf-99f2-4a98-ac16-8cf7da4d0fee}
+  - {name: 🇦🇪 阿联酋 | ARE 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23158, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae11355-725b-420a-b097-184f30806b5f}
+  - {name: 🇨🇦 加拿大 | CAN, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: fd4e9445-29a1-4e1f-a951-e6526c0e9f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 | CAN 2, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 511a2881-989a-405b-9a75-934d5c7430e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 | CAN 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23122, type: ss, cipher: chacha20-ietf-poly1305, password: cd11c9ce-b349-4168-9fdf-8d4927eb1a89}
+  - {name: 🇨🇳 台湾 | TWN 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23509, type: trojan, password: 01a869b8-a83e-4046-8b47-4303c9571f6f, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 4, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23208, type: ss, cipher: chacha20-ietf-poly1305, password: 34775242-64cb-4979-9a5c-2dad452e4753}
+  - {name: 🇨🇳 台湾 | TWN 5, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23507, type: trojan, password: 01a869b8-a83e-4046-8b47-4303c9571f6f, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇩🇪 德国 | DEU, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23334, type: ss, cipher: chacha20-ietf-poly1305, password: f439ad79-170d-4f7b-9853-4f090d273aca}
+  - {name: 🇩🇪 德国 | DEU 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23334, type: ss, cipher: chacha20-ietf-poly1305, password: da233167-3fa6-4361-9aa2-35f7c9e5055d}
+  - {name: 🇪🇸 西班牙 | ESP, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23210, type: ss, cipher: chacha20-ietf-poly1305, password: cd11c9ce-b349-4168-9fdf-8d4927eb1a89}
+  - {name: 🇫🇷 法国 | FRA, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23119, type: ss, cipher: chacha20-ietf-poly1305, password: ca41554e-2a01-4ad5-93cc-6a70b7836c2c}
+  - {name: 🇫🇷 法国 | FRA 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23119, type: ss, cipher: chacha20-ietf-poly1305, password: 78600d02-0d81-4ce5-8ad4-e2b0ee0483c6}
+  - {name: 🇬🇧 英国 | GBR, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23112, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae11355-725b-420a-b097-184f30806b5f}
+  - {name: 🇬🇧 英国 | GBR 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23121, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae11355-725b-420a-b097-184f30806b5f}
+  - {name: 🇬🇧 英国 | GBR 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23112, type: ss, cipher: chacha20-ietf-poly1305, password: 34775242-64cb-4979-9a5c-2dad452e4753}
+  - {name: 🇭🇰 香港 | HKG, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 3ea9af5d-38a0-4947-baa8-f088cb39f8cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23101, type: ss, cipher: chacha20-ietf-poly1305, password: 34775242-64cb-4979-9a5c-2dad452e4753}
+  - {name: 🇭🇰 香港 | HKG 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23499, type: trojan, password: cd11c9ce-b349-4168-9fdf-8d4927eb1a89, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 4, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23505, type: trojan, password: f9d1cb7b-ca3f-4e58-a46d-f508e95ed714, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 5, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23101, type: ss, cipher: chacha20-ietf-poly1305, password: f8d99daf-99f2-4a98-ac16-8cf7da4d0fee}
+  - {name: 🇮🇳 印度 | IND, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23139, type: ss, cipher: chacha20-ietf-poly1305, password: 01a869b8-a83e-4046-8b47-4303c9571f6f}
+  - {name: 🇮🇳 印度 | IND 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23139, type: ss, cipher: chacha20-ietf-poly1305, password: 34775242-64cb-4979-9a5c-2dad452e4753}
+  - {name: 🇮🇳 印度 | IND 3, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 41c931b6-6797-48ad-8b3c-126797374c6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 伊拉克 | IRQ, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23137, type: ss, cipher: chacha20-ietf-poly1305, password: 34775242-64cb-4979-9a5c-2dad452e4753}
+  - {name: 伊拉克 | IRQ 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23137, type: ss, cipher: chacha20-ietf-poly1305, password: 01a869b8-a83e-4046-8b47-4303c9571f6f}
+  - {name: 伊拉克 | IRQ 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23136, type: ss, cipher: chacha20-ietf-poly1305, password: f8d99daf-99f2-4a98-ac16-8cf7da4d0fee}
+  - {name: 🇮🇹 意大利 | ITA, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23143, type: ss, cipher: chacha20-ietf-poly1305, password: e42dfa71-1e12-4c1e-89ab-ee0232b3b698}
+  - {name: 🇯🇵 日本 | JPN, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 18005, type: ss, cipher: aes-256-gcm, password: VOZB18OVHISMS6VD}
+  - {name: 🇯🇵 日本 | JPN 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 18013, type: ss, cipher: aes-256-gcm, password: PJ16JM0RCWPUE60Z}
+  - {name: 🇯🇵 日本 | JPN 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23104, type: ss, cipher: chacha20-ietf-poly1305, password: da233167-3fa6-4361-9aa2-35f7c9e5055d}
+  - {name: 🇰🇷 韩国 | KOR, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23111, type: ss, cipher: chacha20-ietf-poly1305, password: f8d99daf-99f2-4a98-ac16-8cf7da4d0fee}
+  - {name: 🇱🇹 立陶宛 | LTU, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23154, type: ss, cipher: chacha20-ietf-poly1305, password: da233167-3fa6-4361-9aa2-35f7c9e5055d}
+  - {name: 🇲🇾 马来西亚 | MYS, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23526, type: trojan, password: ca41554e-2a01-4ad5-93cc-6a70b7836c2c, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇲🇾 马来西亚 | MYS 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23525, type: trojan, password: 01a869b8-a83e-4046-8b47-4303c9571f6f, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇯🇵 尼日利亚 | NGA, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23149, type: ss, cipher: chacha20-ietf-poly1305, password: e42dfa71-1e12-4c1e-89ab-ee0232b3b698}
+  - {name: 🇵🇭 菲律宾 | PHL, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23134, type: ss, cipher: chacha20-ietf-poly1305, password: cd11c9ce-b349-4168-9fdf-8d4927eb1a89}
+  - {name: 🇵🇱 波兰 | POL, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23140, type: ss, cipher: chacha20-ietf-poly1305, password: f9d1cb7b-ca3f-4e58-a46d-f508e95ed714}
+  - {name: 🇷🇺 俄罗斯 | RUS 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23144, type: ss, cipher: chacha20-ietf-poly1305, password: ca41554e-2a01-4ad5-93cc-6a70b7836c2c}
+  - {name: 🇸🇬 新加坡 | SGP, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23510, type: trojan, password: da233167-3fa6-4361-9aa2-35f7c9e5055d, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23401, type: ss, cipher: chacha20-ietf-poly1305, password: 34775242-64cb-4979-9a5c-2dad452e4753}
+  - {name: 🇸🇬 新加坡 | SGP 4, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23510, type: trojan, password: 01a869b8-a83e-4046-8b47-4303c9571f6f, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 5, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23106, type: ss, cipher: chacha20-ietf-poly1305, password: f9d1cb7b-ca3f-4e58-a46d-f508e95ed714}
+  - {name: 🇸🇬 新加坡 | SGP 6, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23106, type: ss, cipher: chacha20-ietf-poly1305, password: e42dfa71-1e12-4c1e-89ab-ee0232b3b698}
+  - {name: 🇸🇬 新加坡 | SGP 7, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16009, type: ss, cipher: aes-256-gcm, password: O7JDJZC5P4NRYQZ4}
+  - {name: 🇸🇬 新加坡 | SGP 8, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23511, type: trojan, password: 01a869b8-a83e-4046-8b47-4303c9571f6f, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇹🇭 泰国 | THA, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23126, type: ss, cipher: chacha20-ietf-poly1305, password: da233167-3fa6-4361-9aa2-35f7c9e5055d}
+  - {name: 🇹🇭 泰国 | THA 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23127, type: ss, cipher: chacha20-ietf-poly1305, password: e42dfa71-1e12-4c1e-89ab-ee0232b3b698}
+  - {name: 🇹🇭 泰国 | THA 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23126, type: ss, cipher: chacha20-ietf-poly1305, password: f9d1cb7b-ca3f-4e58-a46d-f508e95ed714}
+  - {name: 🇺🇸 美国 | USA 6, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epml.ambercc.filegear-sg.me}}}
+  - {name: 🇺🇸 美国 | USA 9, server: 20.cdn.5468936.xyz, port: 443, type: vmess, uuid: be9cf152-7cf1-46f9-88ed-a55b343c927b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linuxdo, headers: {Host: 20.cdn.5468936.xyz}}}
+  - {name: 🇺🇸 美国 | USA 20, server: www.gco.gov.qa, port: 443, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}}
+  - {name: 🇺🇸 美国 | USA 24, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23523, type: trojan, password: 2ae11355-725b-420a-b097-184f30806b5f, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 27, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epmk.ambercc.filegear-sg.me}}}
+  - {name: 🇺🇸 美国 | USA 31, server: www.visa.co.jp, port: 443, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}}
+  - {name: 🇺🇸 美国 | USA 32, server: 18.cdn.5468936.xyz, port: 443, type: vmess, uuid: be9cf152-7cf1-46f9-88ed-a55b343c927b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linuxdo, headers: {Host: 18.cdn.5468936.xyz}}}
+  - {name: 🇺🇸 美国 | USA 37, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23519, type: trojan, password: f439ad79-170d-4f7b-9853-4f090d273aca, sni: cn.bing.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23133, type: ss, cipher: chacha20-ietf-poly1305, password: da233167-3fa6-4361-9aa2-35f7c9e5055d}
+  - {name: 🇻🇳 越南 | VNM 2, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23133, type: ss, cipher: chacha20-ietf-poly1305, password: e42dfa71-1e12-4c1e-89ab-ee0232b3b698}
