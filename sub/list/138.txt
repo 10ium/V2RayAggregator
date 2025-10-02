@@ -1,77 +1,145 @@
-  - {name: 🇧🇷 巴西 | BRA 15, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇭 瑞士 | CHE, server: cn01.365cloud8754.com, port: 6041, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 | DEU 2, server: 57.129.24.124, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, network: ws, ws-opts: {path: /linkvws}}
-  - {name: 🇬🇧 英国 | GBR, server: creativecommons.org, port: 443, type: trojan, password: biOrJGlcfX, sni: ghasem.kotlet.org, skip-cert-verify: false, network: ws, ws-opts: {path: /kos-madaret-khamneii, headers: {Host: ghasem.kotlet.org}}}
-  - {name: 🇭🇰 香港 | HKG, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 🇭🇰 香港 | HKG 5, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 🇭🇰 香港 | HKG 11, server: cn01.efan8867801.xyz, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇮🇲 马恩岛 | IMN, server: 213.111.132.100, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: UEz3lCgyrS2nL9xJAgboy1}
-  - {name: 🇮🇳 印度 | IND, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇰🇷 韩国 | KOR, server: cn01.365cloud8754.com, port: 6007, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 2, server: 212.192.12.251, port: 23183, type: vmess, uuid: 4453a020-4dd5-45bd-9d83-55e57f67065a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 3, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 美国 | USA 5, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇺🇸 美国 | USA 7, server: csdn.usdone.one, port: 443, type: vmess, uuid: b2342cea-d49a-4358-adeb-49d8d4d5a8f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: csdn.usdone.one, network: ws, ws-opts: {path: /ddddddddd, headers: {Host: csdn.usdone.one}}}
-  - {name: 🇺🇸 美国 | USA 8, server: 212.192.12.251, port: 22122, type: vmess, uuid: 04659221-fa30-4961-92b1-ac036920789b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 9, server: 212.192.12.251, port: 23183, type: vmess, uuid: 01f61774-f8ac-46b0-ab05-484e35c50214, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 11, server: 212.192.12.251, port: 23183, type: vmess, uuid: f663fe7c-0107-4fbd-970e-97038df9572b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 13, server: csdn.usdone.one, port: 443, type: vmess, uuid: 2c781a9c-f741-454c-aaa5-5d21715ca9df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: csdn.usdone.one, network: ws, ws-opts: {path: /ddddddddd, headers: {Host: csdn.usdone.one}}}
-  - {name: 🇺🇸 美国 | USA 14, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}}
-  - {name: 🇺🇸 美国 | USA 21, server: 212.192.12.251, port: 23183, type: vmess, uuid: f98049dc-fb09-4c3e-bd02-a31716b95c64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 22, server: 212.192.12.251, port: 23183, type: vmess, uuid: 08487384-f8fc-4596-994f-74c497ec2d88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 | USA 23, server: 154.26.176.94, port: 444, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /aa, headers: {Host: us.nbee.pp.ua}}}
-  - {name: 🇺🇸 美国 | USA 25, server: 212.192.12.251, port: 23183, type: vmess, uuid: 5cb4de9a-0c10-4ee3-b526-db05df6a86ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.154.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.155.137, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.154.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 9, server: 103.186.155.145, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.154.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 12, server: 103.186.154.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 13, server: 103.186.154.212, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 14, server: 103.186.155.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 15, server: 103.186.154.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 16, server: 103.186.155.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 17, server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 18, server: 103.186.154.159, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 19, server: 103.186.154.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 20, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 21, server: 103.186.155.132, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 22, server: 103.186.154.177, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 23, server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 24, server: 103.186.155.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 25, server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 26, server: 103.186.154.227, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 27, server: 103.186.155.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 28, server: 103.186.154.187, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 29, server: 103.186.155.129, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 30, server: 103.186.154.180, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 31, server: 103.186.155.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 32, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 33, server: 103.186.154.200, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 34, server: 103.186.154.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 35, server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 36, server: 103.186.154.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 37, server: 103.186.154.201, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: CN_a9110_0003, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0004, server: cn01.efan8867801.xyz, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0005, server: cn01.365cloud8754.com, port: 6004, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0006, server: cn01.efan8867801.xyz, port: 6004, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0007, server: efan8998.efan-dns78655.com, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0008, server: efan8998.efan-dns78655.com, port: 6004, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0009, server: cn01.365cloud8754.com, port: 6018, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0010, server: cn01.efan8867801.xyz, port: 6015, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0011, server: cn01.365cloud8754.com, port: 6015, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0012, server: efan8998.efan-dns78655.com, port: 6015, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0013, server: efan8998.efan-dns78655.com, port: 6018, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0014, server: cn01.365cloud8754.com, port: 6041, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0015, server: efan8998.efan-dns78655.com, port: 6007, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0016, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: false}
-  - {name: CN_a9110_0017, server: efan8998.efan-dns78655.com, port: 6021, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_a9110_0018, server: cn01.efan8867801.xyz, port: 6007, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: IN_a9110_0019, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇨🇳 台湾 | TWN, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: fbb92a17-a6ea-493e-85a8-d718355e85cf, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 2, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 3, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 856e7f69-6f59-458c-ad20-a86f046b3cb8, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 4, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 7bcc0f74-a9f3-4bcb-8547-da0be73e8e28, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 5, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 9587395f-b23e-4451-a3f3-4446065803de, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 6, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: d3c12443-c761-4f6f-952a-0f4380b94ba4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 7, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 9587395f-b23e-4451-a3f3-4446065803de, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 8, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 3cf07c8e-b270-458f-9876-0a58b6ac6c22, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 9, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 8129a45a-8ded-4434-ae7e-5f3d2168e0d1, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 10, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 8e61821e-cef9-4f11-a6d3-f86748ae6f65, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 11, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 5455c473-28d6-42df-9c5e-b67f2a211b7d, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 12, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 95237656-2861-4a2e-a43b-d924031169e7, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 | TWN 13, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 4fe3708e-cf7d-4b71-822c-ad8b145c01b1, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 | GBR, server: baigou1.kkieo555.cn, port: 21876, type: trojan, password: 407fd047-288a-4ff4-af81-5ef031684af2, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 | GBR 2, server: creativecommons.org, port: 443, type: trojan, password: biOrJGlcfX, sni: ghasem.kotlet.org, skip-cert-verify: false, network: ws, ws-opts: {path: /kos-madaret-khamneii, headers: {Host: ghasem.kotlet.org}}}
+  - {name: 🇬🇧 英国 | GBR 3, server: baigou1.kkieo555.cn, port: 21876, type: trojan, password: 58e4bf84-475e-4ff3-b4c0-1b8fa13a437f, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 234d3f47-9f4f-42ff-9ea2-2d4cb241b351, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 2, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: dfcad48b-77ef-402d-9a85-323999cbac2c, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 3, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 4fe3708e-cf7d-4b71-822c-ad8b145c01b1, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 4, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 777fec4f-0a18-494b-950a-852bdb271638, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 5, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 64d35e8a-daf0-4c22-8139-ad22f993e3b7, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 6, server: 121.147.229.1, port: 50000, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}}
+  - {name: 🇭🇰 香港 | HKG 7, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 162b69d6-c1d7-430c-8834-b1a8bfa3aee7, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 8, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 48001c46-b4cc-49b5-bf29-bc250303c2bf, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 9, server: 168.93.198.17, port: 443, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}}
+  - {name: 🇭🇰 香港 | HKG 10, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 99eead3f-8db1-420c-94ff-3b0f681bdbf9, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 11, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: d3c12443-c761-4f6f-952a-0f4380b94ba4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 12, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 69485c4d-48df-457d-a17d-4728581585a2, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 14, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 2fa132be-a5c4-4ef0-800a-deea21311f15, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 15, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 856e7f69-6f59-458c-ad20-a86f046b3cb8, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 16, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 856e7f69-6f59-458c-ad20-a86f046b3cb8, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 9587395f-b23e-4451-a3f3-4446065803de, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 2, server: q0wpu-g04.jp06-jz-vm0.entry.fr0528.art, port: 28786, type: vmess, uuid: c18c4112-fb51-3167-bb76-515d7a2b512d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 3, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 4c59eb89-cad3-403f-8d6c-d5d8f5af4f87, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 4, server: 8xp6r-g04.jp05-h6-vm0.entry.fr0528.art, port: 46485, type: vmess, uuid: c18c4112-fb51-3167-bb76-515d7a2b512d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 5, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 777fec4f-0a18-494b-950a-852bdb271638, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 6, server: abm0p-g03.jp06-jz-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 7, server: tls.19.node-for-bigairport.win, port: 23211, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 8, server: 0jxrv-g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 9, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: fbb92a17-a6ea-493e-85a8-d718355e85cf, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 10, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 9587395f-b23e-4451-a3f3-4446065803de, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 11, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 81c9051e-0d8f-4cac-bb27-6ab6e96b8596, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 12, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 9a4d5ed4-1e08-4e58-9a29-1facc7f937e4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 13, server: blidt-g03.jp05-h6-vm0.entry.fr0528.art, port: 46484, type: vmess, uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 14, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: fbb92a17-a6ea-493e-85a8-d718355e85cf, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 15, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 16, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 40ec8eba-dd4b-4e95-94e1-775a5cbe0157, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 17, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: d3b02e52-1fb1-4d31-8469-dd4dea7132d1, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 18, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: fe45f8ef-2dda-4236-b141-b96635b2a565, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 19, server: e3ji8-g04.jp01-nn-vm0.entry.fr0528.art, port: 21584, type: vmess, uuid: c18c4112-fb51-3167-bb76-515d7a2b512d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 20, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 58e4bf84-475e-4ff3-b4c0-1b8fa13a437f, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 22, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 69485c4d-48df-457d-a17d-4728581585a2, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 23, server: tb012-g01.jp03-j7-vm0.entry.fr0528.art, port: 21581, type: vmess, uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 24, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 856e7f69-6f59-458c-ad20-a86f046b3cb8, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 25, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 812d2033-d12a-44c7-abed-da0662d0a5e4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 26, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 70b1464a-1268-4536-8bdc-9e37c0d4e970, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 27, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 9ab1394b-1ec9-41e3-84be-a6a65593d702, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 28, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: c47266b2-4ecc-413f-ab72-3941fac429a3, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 29, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 70b1464a-1268-4536-8bdc-9e37c0d4e970, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 30, server: vznsd-g01.jp06-jz-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: 763e08a1-c289-3a41-aa80-e63a56bc1447, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 31, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: 73ca514a-b0cf-474d-a41e-acb95b1aeb5e, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 | KOR, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: 70b1464a-1268-4536-8bdc-9e37c0d4e970, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 | KOR 2, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: 270206e6-31f8-4d15-828b-4f458bf2970b, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 | KOR 3, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: f48c1926-e92d-4180-bd9b-edda946c6e1a, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 | KOR 4, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: d3c12443-c761-4f6f-952a-0f4380b94ba4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇲🇩 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇳🇱 荷兰 | NLD, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇵🇹 葡萄牙 | PRT, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇸🇬 新加坡 | SGP, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 812d2033-d12a-44c7-abed-da0662d0a5e4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 3, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: aadc4bf6-77ec-460a-af45-11d87431a430, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 5, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: a5fdbe3f-f770-4825-9133-b824713cf849, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 6, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: d3c12443-c761-4f6f-952a-0f4380b94ba4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 7, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: a28532ad-0584-44c4-bee1-a5bdeddbcdce, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 8, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 81c9051e-0d8f-4cac-bb27-6ab6e96b8596, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 9, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: fe45f8ef-2dda-4236-b141-b96635b2a565, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 10, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 5455c473-28d6-42df-9c5e-b67f2a211b7d, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 | SGP 11, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 69485c4d-48df-457d-a17d-4728581585a2, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 5, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 8129a45a-8ded-4434-ae7e-5f3d2168e0d1, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 6, server: 154.17.227.158, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /aa, headers: {Host: us.nbee.pp.ua}}}
+  - {name: 🇺🇸 美国 | USA 7, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: 9a4d5ed4-1e08-4e58-9a29-1facc7f937e4, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 8, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: 69485c4d-48df-457d-a17d-4728581585a2, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 9, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: c47266b2-4ecc-413f-ab72-3941fac429a3, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 14, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 17, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: aadc4bf6-77ec-460a-af45-11d87431a430, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 21, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 234d3f47-9f4f-42ff-9ea2-2d4cb241b351, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 22, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 23, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: fbb92a17-a6ea-493e-85a8-d718355e85cf, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 24, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 48001c46-b4cc-49b5-bf29-bc250303c2bf, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 30, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: aadc4bf6-77ec-460a-af45-11d87431a430, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 32, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: 95237656-2861-4a2e-a43b-d924031169e7, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 34, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 8e61821e-cef9-4f11-a6d3-f86748ae6f65, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 36, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: f48c1926-e92d-4180-bd9b-edda946c6e1a, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 38, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: dfcad48b-77ef-402d-9a85-323999cbac2c, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 2fa132be-a5c4-4ef0-800a-deea21311f15, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.154.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 3, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: c47266b2-4ecc-413f-ab72-3941fac429a3, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 5, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 777fec4f-0a18-494b-950a-852bdb271638, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.155.2, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 8, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 7bcc0f74-a9f3-4bcb-8547-da0be73e8e28, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.154.252, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.154.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 12, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 13, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 8e61821e-cef9-4f11-a6d3-f86748ae6f65, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 14, server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 15, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 407fd047-288a-4ff4-af81-5ef031684af2, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 16, server: 103.186.154.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 17, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 9ab1394b-1ec9-41e3-84be-a6a65593d702, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 18, server: 103.186.154.155, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 19, server: 103.186.154.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 20, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: fe45f8ef-2dda-4236-b141-b96635b2a565, sni: douyin.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM 21, server: 103.186.154.208, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 22, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 23, server: 103.186.155.237, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: CN_ece89_0002, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: CN_ece89_0003, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: false}
+  - {name: CN_ece89_0004, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: CN_ece89_0005, server: hzhz1.sssyun.xyz, port: 29527, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0006, server: hzhz2.sssyun.xyz, port: 40010, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0007, server: hzhz1.sssyun.xyz, port: 39204, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0008, server: hzhz1.sssyun.xyz, port: 32207, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0009, server: hzhz2.sssyun.xyz, port: 40011, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0010, server: hzhz1.sssyun.xyz, port: 39301, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0011, server: hzhz1.sssyun.xyz, port: 39505, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0012, server: hzhz1.sssyun.xyz, port: 19527, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0013, server: hzhz2.sssyun.xyz, port: 40019, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0014, server: hzhz2.sssyun.xyz, port: 44014, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0015, server: hzhz1.sssyun.xyz, port: 19529, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0016, server: hzhz2.sssyun.xyz, port: 40013, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0017, server: hzhz1.sssyun.xyz, port: 12980, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0018, server: hzhz1.sssyun.xyz, port: 39203, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0019, server: hzhz1.sssyun.xyz, port: 39206, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0020, server: hzhz2.sssyun.xyz, port: 40017, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0021, server: hzhz2.sssyun.xyz, port: 12984, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0022, server: hzhz1.sssyun.xyz, port: 12983, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0023, server: hzhz2.sssyun.xyz, port: 20116, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0024, server: hzhz1.sssyun.xyz, port: 39987, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0025, server: hzhz2.sssyun.xyz, port: 39981, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: CN_ece89_0026, server: hzhz2.sssyun.xyz, port: 12981, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==}
+  - {name: JP_ece89_0028, server: 45.77.178.67, port: 80, type: vmess, uuid: 21ca0761-5ec2-5431-9f0c-fd0fac792f2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.cloudflare.com]}}}
+  - {name: JP_ece89_0029, server: 45.77.178.67, port: 80, type: vmess, uuid: b6009332-d81f-572d-9f4f-949b86adda5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.cloudflare.com]}}}
+  - {name: KR_ece89_0030, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: false}
+  - {name: SG_ece89_0031, server: 45.76.153.172, port: 80, type: vmess, uuid: 344ad51e-b080-5328-b9b3-c74c2e56089a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.cloudflare.com]}}}
+  - {name: SG_ece89_0032, server: 45.76.153.172, port: 80, type: vmess, uuid: 44c4f3f6-4bbc-5241-b717-27feef65a9ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.cloudflare.com]}}}
