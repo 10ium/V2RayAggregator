@@ -1,64 +1,47 @@
-  - {name: 🇧🇷 巴西 | BRA, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: ee812e40-958d-46fa-9c37-bbd2933e72f7}
-  - {name: 🇬🇧 英国 | GBR, server: 57.129.137.55, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇭🇰 香港 | HKG, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: ee812e40-958d-46fa-9c37-bbd2933e72f7}
-  - {name: 🇭🇰 香港 | HKG 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 3, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 37065dcb-451e-46d6-b4f2-1fe194eedd95}
-  - {name: 🇭🇰 香港 | HKG 4, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 6, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 | JPN 2, server: tj.o5o5o.top, port: 443, type: trojan, password: ODg5MjZfMTY1NzM2, skip-cert-verify: false, network: ws, ws-opts: {path: /user}}
-  - {name: 🇯🇵 日本 | JPN 3, server: 37.202.200.19, port: 25010, type: trojan, password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05, sni: 37.202.200.19, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 | KOR, server: lv4.789900.xyz, port: 2087, type: vmess, uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: lv4.789900.xyz, network: ws, ws-opts: {path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm, headers: {Host: lv4.789900.xyz}}}
-  - {name: 🇸🇬 新加坡 | SGP, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 7f22f39e-a3df-436f-9594-17ed138dccee}
-  - {name: 🇸🇬 新加坡 | SGP 2, server: dnsmart.dg-cdn.mob.networklinkpro.com, port: 17915, type: trojan, password: 4e468f1e-cd1a-4073-aa50-f810f67eb862, skip-cert-verify: false, network: ws, ws-opts: {path: ""}}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN, server: dnsmart.dg-cdn.mob.networklinkpro.com, port: 17905, type: trojan, password: 4e468f1e-cd1a-4073-aa50-f810f67eb862, skip-cert-verify: false, network: ws, ws-opts: {path: ""}}
-  - {name: 🇺🇸 美国 | USA 2, server: 172.64.229.33, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 5, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 7f22f39e-a3df-436f-9594-17ed138dccee}
-  - {name: 🇺🇸 美国 | USA 6, server: 172.64.229.64, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 10, server: 172.64.229.27, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 16, server: 162.159.128.253, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 17, server: 777.ai7777777.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 24, server: 172.64.229.39, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 25, server: 172.64.229.103, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 27, server: 172.64.229.11, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 30, server: 172.64.229.113, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 31, server: 172.64.229.3, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 33, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 36, server: 172.64.229.108, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 37, server: 172.64.229.7, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 41, server: 172.64.229.10, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 50, server: 172.64.229.69, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 51, server: 172.64.229.21, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 57, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 61, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 71, server: 172.64.229.5, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 77, server: dnsmart.dg-cdn.mob.networklinkpro.com, port: 17911, type: trojan, password: 4e468f1e-cd1a-4073-aa50-f810f67eb862, skip-cert-verify: false, network: ws, ws-opts: {path: ""}}
-  - {name: 🇺🇸 美国 | USA 82, server: 172.64.229.82, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 84, server: 172.64.229.205, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇺🇸 美国 | USA 90, server: 172.64.229.127, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.154.254, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.155.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.155.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 9, server: 103.186.154.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.154.179, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 12, server: 103.186.154.200, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 13, server: 103.186.154.152, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 14, server: 103.186.154.187, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: US_ca229_0042, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0043, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0044, server: 104.16.246.188, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0045, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0056, server: 104.17.162.3, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0057, server: 172.64.229.82, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0058, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0059, server: 172.64.229.33, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0061, server: 104.19.55.205, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0062, server: 172.64.229.2, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0063, server: 172.64.229.65, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0064, server: 172.64.229.6, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
-  - {name: US_ca229_0066, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇨🇭 瑞士 | CHE, server: juncturei.nodelong.xyz, port: 40408, type: ss, cipher: aes-128-gcm, password: 8f9ed15e-14af-487a-ac51-b6fd3d6cfd78}
+  - {name: 🇩🇪 德国 | DEU 3, server: ubjectsi.nodelong.xyz, port: 47249, type: ss, cipher: aes-128-gcm, password: 8f9ed15e-14af-487a-ac51-b6fd3d6cfd78}
+  - {name: 🇩🇪 德国 | DEU 9, server: 3.67.115.253, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 | FRA 2, server: hxfzibzdlxqd.ymccmmi.cn, port: 14651, type: trojan, password: f3942399-424b-493a-a045-a362098c6080, sni: v1-dy.ixigua.com, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 | GBR 2, server: hxfzibzdlxqd.ymccmmi.cn, port: 59358, type: trojan, password: f3942399-424b-493a-a045-a362098c6080, sni: v1-dy.ixigua.com, skip-cert-verify: false}
+  - {name: 🇬🇷 希腊 | GRC, server: hxfzibzdlxqd.ymccmmi.cn, port: 37473, type: trojan, password: f3942399-424b-493a-a045-a362098c6080, sni: v1-dy.ixigua.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 2, server: wrongnessii.nodeshort.xyz, port: 42639, type: ss, cipher: aes-128-gcm, password: 8f9ed15e-14af-487a-ac51-b6fd3d6cfd78}
+  - {name: 🇭🇰 香港 | HKG 3, server: 8.218.238.254, port: 36468, type: vmess, uuid: 107b029b-94d2-43c5-b1ba-602d7c11203d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/x]}}
+  - {name: 🇭🇰 香港 | HKG 4, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 6, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 8, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 10, server: internationali.nodeshort.xyz, port: 30897, type: ss, cipher: aes-128-gcm, password: 8f9ed15e-14af-487a-ac51-b6fd3d6cfd78}
+  - {name: 🇭🇰 香港 | HKG 11, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 | JPN 7, server: uaranteedi.nodeshort.xyz, port: 41547, type: ss, cipher: aes-128-gcm, password: 8f9ed15e-14af-487a-ac51-b6fd3d6cfd78}
+  - {name: 🇯🇵 日本 | JPN 8, server: 203.137.166.120, port: 50090, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇯🇵 日本 | JPN 16, server: 172.64.229.108, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇯🇵 日本 | JPN 17, server: evocativeii.nodeshort.xyz, port: 39426, type: ss, cipher: aes-128-gcm, password: 8f9ed15e-14af-487a-ac51-b6fd3d6cfd78}
+  - {name: 🇯🇵 日本 | JPN 18, server: 172.64.229.86, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇱🇹 立陶宛 | LTU, server: 45.87.175.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇲🇾 马来西亚 | MYS 2, server: stallingii.nodeshort.xyz, port: 42736, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWVhNGNmZGI5YjhiNjM4MQ==:OGY5ZWQxNWUtMTRhZi00OA==}
+  - {name: 🇸🇬 新加坡 | SGP 2, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: d08a26af-0d18-4a84-8641-124fbccd8320}
+  - {name: 🇺🇸 美国 | USA 2, server: hxdwjaoah6gj.ymccmmi.cn, port: 21489, type: trojan, password: f3942399-424b-493a-a045-a362098c6080, sni: v1-dy.ixigua.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 5, server: 104.17.237.219, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 10, server: 172.64.229.15, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 14, server: 172.64.229.83, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 21, server: 172.64.229.6, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 24, server: 162.159.24.131, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 26, server: 162.159.128.253, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: //, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 32, server: characteri.nodelong.xyz, port: 31741, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWVhNGNmZGI5YjhiNjM4MQ==:OGY5ZWQxNWUtMTRhZi00OA==}
+  - {name: 🇺🇸 美国 | USA 36, server: 104.18.42.163, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /http://45.32.19.198:30005, headers: {Host: ts888.yumige.dpdns.org}}}
+  - {name: 🇺🇸 美国 | USA 38, server: low-profileii.nodelong.xyz, port: 41600, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDczNzNmMWFmM2JlM2Q5ZA==:OGY5ZWQxNWUtMTRhZi00OA==}
+  - {name: 🇺🇸 美国 | USA 39, server: 172.64.229.113, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 44, server: 777.ai7777777.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 46, server: 172.64.229.82, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 50, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇺🇸 美国 | USA 53, server: 172.64.229.44, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.188, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.154.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.155.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.201, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.154.254, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 9, server: 103.186.155.214, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.155.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.154.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
