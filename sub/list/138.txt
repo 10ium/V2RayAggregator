@@ -1,97 +1,67 @@
-  - {name: 🇨🇦 加拿大 | CAN, server: xiaofeizhu.idsduf.com, port: 39986, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:ZDk5MGJlYzItOWI0Zi00OA==}
-  - {name: 🇪🇸 西班牙 | ESP, server: 5.188.181.201, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
-  - {name: 🇬🇧 英国 | GBR, server: uks1.network-cdn-gw-yd.net, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇬🇧 英国 | GBR 2, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: ba2b0e94-a180-4c1b-9a83-0e9f6c665dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 88f7643333ac491b4fc17b25b5d1abee.mobgslb.tbcache.com}}}
-  - {name: 🇬🇧 英国 | GBR 3, server: dafeizhu.whtjdasha.com, port: 39209, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:ZDk5MGJlYzItOWI0Zi00OA==}
-  - {name: 🇬🇧 英国 | GBR 5, server: m.cnmjin.net, port: 16645, type: vmess, uuid: ba2b0e94-a180-4c1b-9a83-0e9f6c665dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 88f7643333ac491b4fc17b25b5d1abee.mobgslb.tbcache.com}}}
-  - {name: 🇭🇰 香港 | HKG, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b8d5a7c6-84fc-4683-af05-bf3afa7a636b, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 3, server: 103.236.62.154, port: 33011, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 0q54tcFeEmTCuser8HZXuXh7XOrJq54dKwlcbvdufec=:AMIh7lzyCzRr9v2GYmZoGQbtghH8gppMJaFXzKDZrpE=}
-  - {name: 🇭🇰 香港 | HKG 4, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 092cc803-585e-49ee-b936-29b3f2ca1d9f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 5, server: hkp6.network-cdn-gw-yd.net, port: 48816, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇭🇰 香港 | HKG 6, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 3b95536d-2620-4734-aace-5b3fc671fe54, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 7, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 2d259b0f-7639-45f0-b2fe-8b26773741f0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 8, server: dafeizhu.whtjdasha.com, port: 19527, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:ZDk5MGJlYzItOWI0Zi00OA==}
-  - {name: 🇭🇰 香港 | HKG 9, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: b99f17f7-38f7-48e7-af00-b260a65d007d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 10, server: planb.mojcn.com, port: 16632, type: vmess, uuid: ba2b0e94-a180-4c1b-9a83-0e9f6c665dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 88f7643333ac491b4fc17b25b5d1abee.mobgslb.tbcache.com}}}
-  - {name: 🇭🇰 香港 | HKG 11, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 761a3023-9c06-4197-a0d5-1f0c96337d8c, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 12, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 1e071e05-b6b4-4966-9a78-3a98e6c0e984, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 13, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 688abcd9-0ff0-49f8-baa1-6a23403bd0e7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 14, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 3031d3bc-1d28-4e79-a770-111d1e72f44b, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 15, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: b8d5a7c6-84fc-4683-af05-bf3afa7a636b, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 16, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 48f3f8f1-8b1c-42d6-8e8e-fb9c14ebb550, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 17, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 1d2d37ba-7625-4fdd-ad58-515783b2c48a, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 18, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: b8d5a7c6-84fc-4683-af05-bf3afa7a636b, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 19, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: c449b06b-ab4a-4e2e-9800-816766efe6f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 20, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 637d3df8-69f7-4ce0-9625-830eb609364f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 22, server: hk3.network-cdn-gw-yd.net, port: 32058, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇭🇰 香港 | HKG 23, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 24, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: ad0925d3-2e3c-481f-9eb4-9ef5d6bb39d7, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 25, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 53494ce0-1a00-4e91-a073-2bd4e4770cfc, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 26, server: hk09.network-cdn-gw-yd.net, port: 47709, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇭🇰 香港 | HKG 27, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 30282342-fe04-46d3-b18b-63ba8ce3097e, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 28, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 615d4129-6b22-4194-a2ae-5610607f6c26, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 29, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 30, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 98faa6e4-fc78-4b20-8c1f-c7f9c8cd8185, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 31, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 88eabf9a-9b6b-4370-ac42-0d32edfec735, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 34, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9ae80174-57b2-4176-a913-1101cb3226d5, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 35, server: gd2.bjnet2.com, port: 36602, type: ss, cipher: aes-128-gcm, password: fe9c3bb2-2372-47bf-bb4f-8faf65d435df, plugin: obfs, plugin-opts: {mode: http, host: b271059bbc28a2b13e554ab1b4a88eb0.baidu.com}}
-  - {name: 🇭🇰 香港 | HKG 36, server: hk14.network-cdn-gw-yd.net, port: 32062, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇭🇰 香港 | HKG 37, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: c051a422-69f1-4e62-aa28-6a8e49d547d6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 38, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 88eabf9a-9b6b-4370-ac42-0d32edfec735, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇮🇳 印度 | IND, server: in01.network-cdn-gw-yd.net, port: 43304, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇮🇳 印度 | IND 2, server: planb.mojcn.com, port: 16626, type: vmess, uuid: ba2b0e94-a180-4c1b-9a83-0e9f6c665dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 88f7643333ac491b4fc17b25b5d1abee.mobgslb.tbcache.com}}}
-  - {name: 🇮🇸 冰岛 | ISL, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: ec0d3771-fc82-474c-8518-fb897398c58f}
-  - {name: 🇮🇹 意大利 | ITA, server: it.network-cdn-gw-yd.net, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇯🇵 日本 | JPN 2, server: xiaofeizhu.idsduf.com, port: 40020, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:ZDk5MGJlYzItOWI0Zi00OGZhLWI1MTQtN2FkMWI4M2E=}
-  - {name: 🇯🇵 日本 | JPN 6, server: jp2.network-cdn-gw-yd.net, port: 48802, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇯🇵 日本 | JPN 7, server: jp3.network-cdn-gw-yd.net, port: 48803, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇯🇵 日本 | JPN 8, server: xiaofeizhu.idsduf.com, port: 40019, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:ZDk5MGJlYzItOWI0Zi00OA==}
-  - {name: 🇯🇵 日本 | JPN 9, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: ba2b0e94-a180-4c1b-9a83-0e9f6c665dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 88f7643333ac491b4fc17b25b5d1abee.mobgslb.tbcache.com}}}
-  - {name: 🇯🇵 日本 | JPN 10, server: 103.236.62.154, port: 33015, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 4jS64t+kXKdIHRVMI/hbekFVjwgkTsjRTDKYzfUV9b8=:jUiZ0XsBURPzW/yZ9+e6WuRbPTlygtnzrnBVngm1gis=}
-  - {name: 🇳🇱 荷兰 | NLD 2, server: 45.87.175.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: 🇳🇱 荷兰 | NLD 4, server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 🇵🇱 波兰 | POL, server: 89.223.93.176, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA}
-  - {name: 🇵🇹 葡萄牙 | PRT, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 新加坡 | SGP 2, server: m.cnmjin.net, port: 16618, type: vmess, uuid: ba2b0e94-a180-4c1b-9a83-0e9f6c665dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 88f7643333ac491b4fc17b25b5d1abee.mobgslb.tbcache.com}}}
-  - {name: 🇸🇬 新加坡 | SGP 3, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 🇸🇬 新加坡 | SGP 4, server: 103.236.62.154, port: 33013, type: ss, cipher: 2022-blake3-aes-256-gcm, password: kVoTwq9hXxdit0zDg7Lv089a25lXMeYKIvWl/39U7p4=:SVVNqcXExjIh/aSzjiACWr5g3ZZmxGnKs0sZLylgnGE=}
-  - {name: 🇸🇬 新加坡 | SGP 5, server: sgp05.network-cdn-gw-yd.net, port: 45510, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: af9b7bde-5b98-4bae-b35d-81637d99848f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN 3, server: gd.bjnet2.com, port: 36603, type: ss, cipher: aes-128-gcm, password: fe9c3bb2-2372-47bf-bb4f-8faf65d435df, plugin: obfs, plugin-opts: {mode: http, host: b271059bbc28a2b13e554ab1b4a88eb0.baidu.com}}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN 4, server: xiaofeizhu.idsduf.com, port: 40017, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:ZDk5MGJlYzItOWI0Zi00OA==}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN 5, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 877272bc-cde8-4b44-adc8-e80fe7d79821}
-  - {name: 🇺🇸 美国 | USA, server: xiaofeizhu.idsduf.com, port: 40022, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:ZDk5MGJlYzItOWI0Zi00OA==}
-  - {name: 🇺🇸 美国 | USA 4, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ec0d3771-fc82-474c-8518-fb897398c58f}
-  - {name: 🇺🇸 美国 | USA 5, server: dafeizhu.whtjdasha.com, port: 39203, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:ZDk5MGJlYzItOWI0Zi00OA==}
-  - {name: 🇺🇸 美国 | USA 6, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 42c3750a-ab5f-47d3-858a-59ee292912ac, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 7, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 2a5841b3-0a10-48f9-9265-ac3cdf7c335d, sni: douyin.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 9, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 3b95536d-2620-4734-aace-5b3fc671fe54, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 14, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 9c912cc1-d1d9-4d33-b47a-43f3cdd6366d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 15, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 12ff2435-3fd8-4b95-9530-871f517a5ae8, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 16, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 505ab478-a7c5-413b-ac56-7cef17584a7c, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 18, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 761a3023-9c06-4197-a0d5-1f0c96337d8c, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 20, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: b8d7ae9d-9cba-4983-ac16-5b5f02ba2802, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 21, server: us01.network-cdn-gw-yd.net, port: 44401, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d}
-  - {name: 🇺🇸 美国 | USA 23, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 26, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: c051a422-69f1-4e62-aa28-6a8e49d547d6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 28, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 88eabf9a-9b6b-4370-ac42-0d32edfec735, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 29, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 30282342-fe04-46d3-b18b-63ba8ce3097e, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 30, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.154.186, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.196, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: CA_f3760_0001, server: 167.17.179.87, port: 8388, type: ss, cipher: aes-256-gcm, password: vEY+Etsv/KTEM3vq}
-  - {name: HK_f3760_0013, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: HK_f3760_0014, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, skip-cert-verify: false}
-  - {name: IN_f3760_0015, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: IN_f3760_0016, server: hyfuuf6.wsone.icu, port: 443, type: trojan, password: M7v%w11Se*, sni: hyfuuf6.wsone.icu, skip-cert-verify: false}
-  - {name: TW_f3760_0024, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: mrwdfNTD8M79LCukCieldrqZWqs=, tls: true, skip-cert-verify: false}
-  - {name: US_f3760_0026, server: 95.174.71.98, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: e7b7ab7:102816}}
-  - {name: US_f3760_0030, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: VN_f3760_0058, server: 103.186.155.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN_f3760_0059, server: 103.186.155.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN_f3760_0060, server: 103.186.155.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN_f3760_0061, server: 103.186.155.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇦🇺 澳大利亚 | AUS, server: 45.15.185.70, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 🇫🇷 法国 | FRA, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 2f914df1-a8e2-45b5-bdcd-a7bb4aed663f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 2, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: cfc58264-6650-4536-a338-e6bc27095421, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 3, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: d589cb37-5f49-4bf0-aeb5-573b0af69c0a, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 4, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 03c12414-6ad7-4e37-831a-41b59f9406fd, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 5, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: add5d59b-5196-4b3e-bf80-50f851ba51a5, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 6, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 01c7c307-2ae3-4c9e-bfa2-d64b8a2f5e44, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 7, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 1f86e372-1ee6-47eb-8c33-72bfc310dee6, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 8, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: a0838e25-3f25-437d-9c6a-3b59e617f3eb, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 9, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0949b660-d349-4b5b-b3ce-3349058f7be8, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 10, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 2f914df1-a8e2-45b5-bdcd-a7bb4aed663f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 11, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 715e7164-c698-4c04-9944-ad4b960fa51d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 12, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 1592dbc0-a4d3-407c-a95a-be7ee8e4d814, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 13, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 808b5ae2-7b94-43e7-8632-c639c3f72415, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 14, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: f82357f6-c9e4-4dac-bbf4-58f4cfe0bb06, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 15, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: c45a2ac1-32e0-4ff6-9508-182f4802ccb4, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 16, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: c45a2ac1-32e0-4ff6-9508-182f4802ccb4, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 17, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: c2dd7c53-c617-4f9a-8bcc-37f771a811d1, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 18, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 812b466f-4db4-4faf-a2d4-e168ed6e16c1, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 19, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 401a44f1-eab0-432b-95e7-32709b1a1942, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 20, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 09531da2-9460-42a0-a467-a09998226de3, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 21, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: efe9d5fc-823d-43d5-baef-9bc1fb0e651d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 22, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 763a5928-4781-46ca-b4b0-92307d75bf8f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 24, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b9244b12-17ea-40b3-af90-c17b36af648f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 25, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9ab8fa39-7e45-43b1-8572-378fc62fe801, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 26, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 49d51e4a-7770-4a78-9165-b4fed003bfcb, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 27, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: dadd13b8-2b26-402c-9457-cd842d4522ca, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 28, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: efe9d5fc-823d-43d5-baef-9bc1fb0e651d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 29, server: 103.236.62.154, port: 33001, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 0q54tcFeEmTCuser8HZXuXh7XOrJq54dKwlcbvdufec=:AMIh7lzyCzRr9v2GYmZoGQbtghH8gppMJaFXzKDZrpE=}
+  - {name: 🇭🇰 香港 | HKG 30, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 524a5f00-faee-4dfa-9383-c7d01918d98f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 31, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: e7354b6e-7bf8-4dd1-9926-d6c3cc12416d, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 33, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: add5d59b-5196-4b3e-bf80-50f851ba51a5, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 34, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9d23ec89-a50a-4634-b09e-37330ce09b37, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 35, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: adbdfdab-59ca-42d7-8f32-bfc2cee7de94, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 36, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 43f279f5-ba7b-4cc0-8dea-adc0ff597d59, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 37, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 2f914df1-a8e2-45b5-bdcd-a7bb4aed663f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 39, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 986b0e5b-1372-443f-bbcd-c672bdff7b00, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇱🇹 立陶宛 | LTU, server: 5.199.173.116, port: 5228, type: ss, cipher: chacha20-ietf-poly1305, password: NQRCh-qm11GH9MaRWX9NdmSdWaGRhFeS}
+  - {name: 毛里求斯 | MUS, server: 45.196.235.171, port: 80, type: vmess, uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇨🇳 🇨🇳 台湾 | TWN, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国 | USA, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: de02a8b0-4d8f-4066-bde4-aec69c48b07d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 2, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 57d69288-b782-4798-81d6-64b13777549a, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 5, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 9ab8fa39-7e45-43b1-8572-378fc62fe801, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 6, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 43f279f5-ba7b-4cc0-8dea-adc0ff597d59, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 7, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 808b5ae2-7b94-43e7-8632-c639c3f72415, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 9, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: b201e653-1541-4e94-b175-9c42c44a1ef9, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 10, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: a9c65266-acdb-4868-b498-aff429cdddee, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 12, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 35a2c07b-46ea-4d5c-8c8c-f0b671e18c0c, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 14, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 1f86e372-1ee6-47eb-8c33-72bfc310dee6, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 15, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 49d51e4a-7770-4a78-9165-b4fed003bfcb, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 16, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 43541094-75a3-4d59-b88f-1b8042b74b8b, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 17, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: www.bing.com}
+  - {name: 🇺🇸 美国 | USA 18, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: a0838e25-3f25-437d-9c6a-3b59e617f3eb, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 20, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: b3c721c4-3c1d-4a87-bdce-9d11f8c57b96, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 21, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 2f914df1-a8e2-45b5-bdcd-a7bb4aed663f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 23, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 30b2eb56-ce6c-4936-8704-304d5fb19c86, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 27, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 023bf5a1-e233-487d-b59e-a45b58009937, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM, server: 103.186.155.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.154.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.155.150, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.155.125, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: CN_3a9ec_0001, server: oss-4.qqa678.com, port: 47081, type: vmess, uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_3a9ec_0002, server: tunnel2.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: KR_3a9ec_0012, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: false}
+  - {name: TH_3a9ec_0018, server: m.modzard.com, port: 8080, type: vmess, uuid: f2e17b4d-22fd-44a4-90db-40649717be8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.adslthailand.com]}}}
