@@ -1,53 +1,80 @@
-  - {name: 🇩🇪 德国 | DEU 3, server: 3.123.120.25, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 | DEU 6, server: 3.123.120.25, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 | FRA, server: 202.85.53.205, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 2, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 611e8675-2d37-4b00-abaf-adb2fb91b343, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 3, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 75071fb3-5954-46d4-be79-fb436b13e449, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇮🇳 印度 | IND, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 61ecce90-f461-4fe5-aac9-9077d5b02ae8}
-  - {name: 🇮🇸 冰岛 | ISL, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 61ecce90-f461-4fe5-aac9-9077d5b02ae8}
-  - {name: 🇯🇵 日本 | JPN 13, server: tunnel1.qqa678.com, port: 47083, type: vmess, uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 | KOR, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 61ecce90-f461-4fe5-aac9-9077d5b02ae8}
-  - {name: 🇲🇽 墨西哥 | MEX, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 61ecce90-f461-4fe5-aac9-9077d5b02ae8}
-  - {name: 🇳🇱 荷兰 | NLD, server: 5.129.219.21, port: 8080, type: ss, cipher: aes-128-gcm, password: tKko+YIAuuZ3d0hsPX2+D3NqepytG1Ha0VRLwBrf0Ak=}
-  - {name: 🇳🇱 荷兰 | NLD 2, server: 176.120.17.132, port: 31820, type: vmess, uuid: 12f1c513-6217-4f8d-b227-8592aa2c3a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [arvancloud.ir]}}}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: cad82deb-a15a-4561-b501-080032ee3fca, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN 2, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 6ecb4c83-10f0-47a6-b366-a1a922b34002, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN 4, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: cce7d9cb-fef1-4a74-b1c5-afaf7f0428ac, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇨🇳 🇨🇳 台湾 | TWN 6, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: d8b3841a-ece7-4ce7-b2f9-30fc909cbeea, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.154.155, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.168, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.161, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.155.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.154.196, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 9, server: 103.186.155.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.155.67, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 12, server: 103.186.155.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 13, server: 103.186.155.144, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 14, server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 15, server: 103.186.155.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 16, server: 103.186.154.74, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 17, server: 103.186.154.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 18, server: 103.186.154.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 19, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 20, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 21, server: 103.186.154.72, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 22, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: CN_ae60a_0003, server: tunnel1.qqa678.com, port: 47083, type: vmess, uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_ae60a_0004, server: tunnel1.qqa678.com, port: 37086, type: vmess, uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_ae60a_0005, server: 103.181.165.145, port: 59952, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_ae60a_0006, server: tunnel2.qqa678.com, port: 47084, type: vmess, uuid: 9f8c122d-5b86-4c19-af87-64f458a88223, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_ae60a_0007, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: ab35a23e-80e6-4530-99cf-e29041acdcfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_ae60a_0008, server: cees.owwoedu.com, port: 49312, type: vmess, uuid: cc456650-706c-44d5-bae3-ececade04140, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: FR_ae60a_0016, server: 195.154.119.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: FR_ae60a_0017, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: GB_ae60a_0019, server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: HK_ae60a_0026, server: 219.76.135.98, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: RU_ae60a_0045, server: 5.129.219.21, port: 8080, type: ss, cipher: aes-128-gcm, password: tKko+YIAuuZ3d0hsPX2+D3NqepytG1Ha0VRLwBrf0Ak=}
-  - {name: SG_ae60a_0070, server: 84.247.147.61, port: 24914, type: ss, cipher: chacha20-ietf-poly1305, password: 65e716e3d3ec1fc0}
-  - {name: TH_ae60a_0071, server: m.modzard.com, port: 8080, type: vmess, uuid: f2e17b4d-22fd-44a4-90db-40649717be8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.adslthailand.com]}}}
-  - {name: TW_ae60a_0072, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: mrwdfNTD8M79LCukCieldrqZWqs=, tls: true, skip-cert-verify: false}
-  - {name: TW_ae60a_0073, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: false}
+  - {name: 🇧🇷 巴西 | BRA, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 香港 | HKG, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: ed00c3a1-ce91-46ee-9cc4-e42644162e92, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 3, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 1989ec16-fe97-4e28-9eae-3be9b601a5b9, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 5, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 6ecb4c83-10f0-47a6-b366-a1a922b34002, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 6, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 28751686-aa56-4d84-9213-e2218619eb63, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 7, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 13029587-fc71-4366-a8ca-ecbf26783812, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 8, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: b81a966e-7f63-436a-a75f-2685086eb889, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 9, server: 103.149.183.200, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇭🇰 香港 | HKG 10, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 47c07984-4f34-472c-93b0-15021fcdceb8, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 11, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 459b9888-c976-486c-9077-3bf4782c2160, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 12, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 474eac5f-130d-4801-a1df-39753585865f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 14, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 65e6bcda-dbb7-43dd-8b82-5c656a079a3f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 15, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 1989ec16-fe97-4e28-9eae-3be9b601a5b9, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 16, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: bcb5b107-e484-4b78-8757-79aa581141b3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 17, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 7ec8c8cd-22f5-4a44-bcdb-e50034a3e177, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 18, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: e8feb23c-6e5d-4bc0-9069-d09da944c7b8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 19, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 459b9888-c976-486c-9077-3bf4782c2160, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 20, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: e8feb23c-6e5d-4bc0-9069-d09da944c7b8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 22, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 3f58bbd2-4bac-4c33-9dd9-788d7a35d8bf, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 | IND, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 51f95a68-cd03-4577-837f-9b872f6bbb63}
+  - {name: 🇯🇵 日本 | JPN 4, server: ss.032.node-for-bigairport.win, port: 19885, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53}
+  - {name: 🇳🇱 荷兰 | NLD 4, server: backup.fleetfoxi.link, port: 44884, type: ss, cipher: chacha20-ietf-poly1305, password: 2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw}
+  - {name: 🇳🇱 荷兰 | NLD 6, server: 45.87.175.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 🇸🇬 新加坡 | SGP 2, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 7240fe92-5a0f-4816-a1f1-1bbac4e517a5}
+  - {name: 🇨🇳 🇨🇳 台湾 | TWN 3, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: b81a966e-7f63-436a-a75f-2685086eb889, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇨🇳 🇨🇳 台湾 | TWN 6, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: b2c3c695-2910-4d95-90e0-030527c91ea6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 2, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: d81fa396-b58d-4b6d-bd83-161f761c3452, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 5, server: tunnel2.qqa678.com, port: 47084, type: vmess, uuid: 9f8c122d-5b86-4c19-af87-64f458a88223, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 6, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 2c4c1781-c450-4975-a6f4-3935194021e0, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 7, server: 172.66.44.230, port: 8443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/tro8sFW1S91B6sZrM1?ed=2560", headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇺🇸 美国 | USA 9, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: dd46276b-1e48-4c33-829c-fe8bb1fa3272, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 10, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: ffafdf14-ee83-4ad5-b4b5-895909573a80, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 13, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: b81a966e-7f63-436a-a75f-2685086eb889, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 15, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 4897a9ac-1a9e-4f1a-bc44-fd54d5bc480b, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 16, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 47c07984-4f34-472c-93b0-15021fcdceb8, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 18, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 6ecb4c83-10f0-47a6-b366-a1a922b34002, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 19, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 2f849918-39ea-492f-9313-137ddf02a79b, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 22, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 459b9888-c976-486c-9077-3bf4782c2160, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 24, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 474eac5f-130d-4801-a1df-39753585865f, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.154.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.155.237, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.154.14, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.155.67, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.155.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 9, server: 103.186.155.144, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.155.104, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.154.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 12, server: 103.186.154.253, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 13, server: 103.186.155.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 14, server: 103.186.154.74, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 15, server: 103.186.155.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 16, server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 17, server: 103.186.154.159, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: BG_0a189_0003, server: 94.156.170.43, port: 9000, type: ss, cipher: chacha20-ietf-poly1305, password: yqpk58PpXYXhchltkeWrMA}
+  - {name: CN_0a189_0004, server: tunnel2.qqa678.com, port: 47083, type: vmess, uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_0a189_0005, server: tunnel1.qqa678.com, port: 47083, type: vmess, uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_0a189_0006, server: 103.181.165.237, port: 31332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: DE_0a189_0009, server: 62.133.60.60, port: 7048, type: ss, cipher: chacha20-ietf-poly1305, password: TxUz18504p5egfiVecTQll}
+  - {name: RU_0a189_0018, server: 5.129.219.21, port: 8080, type: ss, cipher: aes-128-gcm, password: tKko+YIAuuZ3d0hsPX2+D3NqepytG1Ha0VRLwBrf0Ak=}
+  - {name: VN_0a189_0048, server: 103.186.154.197, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0049, server: 103.186.154.194, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0050, server: 103.186.155.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0051, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0052, server: 103.186.154.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0053, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0054, server: 103.186.155.85, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0055, server: 103.186.154.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0056, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0057, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0058, server: 103.186.154.249, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0059, server: 103.186.154.237, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0060, server: 103.186.154.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0061, server: 103.186.155.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0062, server: 103.186.155.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0063, server: 103.186.155.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0064, server: 103.186.154.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN_0a189_0065, server: 103.186.155.8, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
