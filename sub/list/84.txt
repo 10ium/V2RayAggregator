@@ -8,58 +8,34 @@
   - {name: "防范境外势力渗透 #7", server: 127.0.0.53, port: 87, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "防范境外势力渗透 #8", server: 127.0.0.53, port: 88, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "防范境外势力渗透 #9", server: 127.0.0.53, port: 89, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: HK5｜原生/疑似家宽｜非常安全, server: gtm1.ktmwan.net, port: 12883, type: vmess, uuid: 3ac9d436-f213-421d-9644-a94686ee9fba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gtm1.ktmwan.net}}}
-  - {name: US53｜机房｜低风险, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US25｜机房｜低风险, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: IN2｜家宽｜非常安全, server: id2.wpairplane.com, port: 9000, type: vmess, uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US4｜机房｜低风险, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: SG1｜商宽｜非常安全, server: 36.50.90.241, port: 47790, type: vmess, uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg.dalxy.eu.org, network: ws, ws-opts: {path: /a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm, headers: {Host: sg.dalxy.eu.org}}}
-  - {name: FR2｜机房｜低风险, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: DE13｜机房｜高风险 (黑名单), server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US13｜机房｜低风险, server: bestcdn0.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527849699.682637.xyz, skip-cert-verify: false}
-  - {name: US14｜机房｜低风险, server: bestcdn0.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527843448.682637.xyz, skip-cert-verify: false}
-  - {name: US15｜机房｜低风险, server: bestcdn0.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527848611.682637.xyz, skip-cert-verify: false}
-  - {name: US16｜机房｜低风险, server: bestcdn0.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527844024.682637.xyz, skip-cert-verify: false}
-  - {name: US17｜机房｜低风险, server: bestcdn0.868863.xyz, port: 2096, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527846017.682637.xyz, skip-cert-verify: false}
-  - {name: US18｜机房｜低风险, server: bestcdn0.868863.xyz, port: 8443, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527843409.682637.xyz, skip-cert-verify: false}
-  - {name: US19｜机房｜低风险, server: bestcdn0.868863.xyz, port: 8443, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527841311.682637.xyz, skip-cert-verify: false}
-  - {name: US20｜机房｜低风险, server: bestcdn0.868863.xyz, port: 2053, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527849743.682637.xyz, skip-cert-verify: false}
-  - {name: US21｜机房｜低风险, server: bestcdn1.868863.xyz, port: 2053, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527847400.206352.xyz, skip-cert-verify: false}
-  - {name: DE3｜机房｜低风险, server: bestcdn1.868863.xyz, port: 2096, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527843306.206353.xyz, skip-cert-verify: false}
-  - {name: US22｜机房｜低风险, server: bestcdn1.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527847557.206355.xyz, skip-cert-verify: false}
-  - {name: US23｜机房｜低风险, server: bestcdn1.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527849735.206356.xyz, skip-cert-verify: false}
-  - {name: US24｜机房｜低风险, server: bestcdn2.868863.xyz, port: 2083, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527845118.206352.xyz, skip-cert-verify: false}
-  - {name: DE4｜机房｜低风险, server: bestcdn2.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527843673.206353.xyz, skip-cert-verify: false}
-  - {name: US25｜机房｜低风险, server: bestcdn2.868863.xyz, port: 2096, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527842165.206355.xyz, skip-cert-verify: false}
-  - {name: US26｜机房｜低风险, server: bestcdn2.868863.xyz, port: 2096, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527841189.206356.xyz, skip-cert-verify: false}
-  - {name: US27｜机房｜低风险, server: bestcdn3.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527848447.206352.xyz, skip-cert-verify: false}
-  - {name: DE5｜机房｜低风险, server: bestcdn3.868863.xyz, port: 2083, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527846479.206353.xyz, skip-cert-verify: false}
-  - {name: US28｜机房｜低风险, server: bestcdn3.868863.xyz, port: 2053, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527844015.206355.xyz, skip-cert-verify: false}
-  - {name: US29｜机房｜低风险, server: bestcdn3.868863.xyz, port: 2053, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527849729.206356.xyz, skip-cert-verify: false}
-  - {name: US30｜机房｜低风险, server: bestcdn4.868863.xyz, port: 2096, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527846176.206352.xyz, skip-cert-verify: false}
-  - {name: DE6｜机房｜低风险, server: bestcdn4.868863.xyz, port: 8443, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527849389.206353.xyz, skip-cert-verify: false}
-  - {name: US31｜机房｜低风险, server: bestcdn4.868863.xyz, port: 2083, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527843363.206355.xyz, skip-cert-verify: false}
-  - {name: US32｜机房｜低风险, server: bestcdn4.868863.xyz, port: 2083, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527841190.206356.xyz, skip-cert-verify: false}
-  - {name: US33｜机房｜低风险, server: bestcdn5.868863.xyz, port: 8443, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527843210.206352.xyz, skip-cert-verify: false}
-  - {name: DE7｜机房｜低风险, server: bestcdn5.868863.xyz, port: 2053, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527849779.206353.xyz, skip-cert-verify: false}
-  - {name: US34｜机房｜低风险, server: bestcdn5.868863.xyz, port: 8443, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527843786.206355.xyz, skip-cert-verify: false}
-  - {name: US35｜机房｜低风险, server: bestcdn5.868863.xyz, port: 8443, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527846339.206356.xyz, skip-cert-verify: false}
-  - {name: HK11｜家宽｜非常安全, server: 58.152.25.208, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.25.208, skip-cert-verify: false}
-  - {name: DE9｜机房｜低风险, server: 104.19.37.10, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/NASNET/cdn?ed=2560", headers: {Host: nasnet-571299667.rahavard365.co}}}
-  - {name: DE11｜机房｜低风险, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: JP3｜机房｜低风险, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US46｜机房｜低风险, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK5｜原生/疑似家宽｜高风险 (黑名单), server: gtm1.ktmwan.net, port: 12883, type: vmess, uuid: 3ac9d436-f213-421d-9644-a94686ee9fba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gtm1.ktmwan.net}}}
+  - {name: US33｜机房｜低风险, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: FR5｜机房｜低风险, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP2｜机房｜低风险, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US22｜机房｜低风险, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: DE5｜机房｜低风险, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: GB14｜机房｜低风险, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: NL6｜机房｜低风险, server: vip3.kaixincloud.top, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false}
+  - {name: SE1｜机房｜低风险, server: vip3.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: false}
+  - {name: NL9｜机房｜低风险, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN1｜商宽｜非常安全, server: hn.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
   - {name: "tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 18.183.109.29, port: 3373, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 57.180.15.194, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.207.105.49, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 43.206.226.70, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.85.33, port: 193, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.231.103, port: 400, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: 049d354a-2cf1-4956-b6d8-d04aa4969b64}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 46.51.224.113, port: 3373, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 95.40.2.208, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 57.180.245.83, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: a12.taipeicitygovernment.org.ua, port: 3462, type: trojan, password: 736cd94d-7b94-3e44-8106-3419f64eaf09, sni: 45.32.28.232, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 13.158.130.64, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 18.181.199.98, port: 3423, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.124.17, port: 3423, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.138.24, port: 3901, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 153.121.39.240, port: 3901, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.199.161.245, port: 2673, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 153.121.38.213, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 57.180.245.83, port: 381, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡4|@ripaojiedian, server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com, port: 22350, type: ss, cipher: chacha20-ietf-poly1305, password: 049d354a-2cf1-4956-b6d8-d04aa4969b64}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 43.207.73.82, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.236.32, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 57.181.39.168, port: 38780, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
   - {name: 🇭🇰 香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
