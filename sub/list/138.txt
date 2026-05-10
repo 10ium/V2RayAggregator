@@ -1,61 +1,45 @@
-  - {name: 🇦🇺 澳大利亚 | AUS, server: 103.62.50.130, port: 443, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 | DEU, server: 216.23.84.220, port: 8443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇩🇪 德国 | DEU 2, server: 150.109.11.223, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇩🇪 德国 | DEU 4, server: 82.118.21.88, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇩🇪 德国 | DEU 5, server: 204.168.174.36, port: 8443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇫🇷 法国 | FRA, server: 211.48.77.114, port: 24095, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇬🇧 英国 | GBR, server: 204.168.184.107, port: 8443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇬🇧 英国 | GBR 2, server: 9a15720d-tetwg0-txkkcl-1fli7.uk.oshuawei.com, port: 443, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG, server: select-sg.ddnskunlun.com, port: 9039, type: vmess, uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: select-sg.ddnskunlun.com}
-  - {name: 🇭🇰 香港 | HKG 2, server: bfb4ad66-tetwg0-txkkcl-1fli7.cm4.oshuawei.com, port: 5228, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 3, server: board-02.ddnskunlun.com, port: 11979, type: vmess, uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: board-02.ddnskunlun.com}
-  - {name: 🇭🇰 香港 | HKG 4, server: 212.192.15.78, port: 40210, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5}
-  - {name: 🇭🇰 香港 | HKG 5, server: 112.213.102.188, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇳🇱 荷兰 | NLD, server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: 🇷🇴 罗马尼亚 | ROU, server: 84.239.49.234, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 | ROU 2, server: 193.176.84.20, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 | ROU 3, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 | ROU 4, server: 193.176.84.24, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 | ROU 5, server: 84.239.49.201, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 | ROU 6, server: 193.176.84.39, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 | ROU 7, server: 84.239.49.253, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯 | RUS, server: 195.58.49.9, port: 60129, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599}
-  - {name: 🇷🇺 俄罗斯 | RUS 2, server: 195.58.49.26, port: 60129, type: ss, cipher: aes-256-gcm, password: 3150466568eda87b}
-  - {name: 🇸🇪 瑞典 | SWE, server: yespaintstudio.rav-kraski.ru, port: 50824, type: trojan, password: 7aXwJPnpAJ, sni: yespaintstudio.rav-kraski.ru, skip-cert-verify: false}
-  - {name: 🇸🇪 瑞典 | SWE 2, server: 193.222.62.67, port: 8443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇸🇪 瑞典 | SWE 3, server: 185.104.250.167, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇸🇪 瑞典 | SWE 4, server: 95.81.112.201, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇸🇬 新加坡 | SGP 2, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com}}}
-  - {name: 🇸🇬 新加坡 | SGP 4, server: planb.mojcn.com, port: 16618, type: vmess, uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "%2F", headers: {Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 美国 | USA, server: c9472217-tetwg0-txkkcl-1fli7.sjc.oshuawei.com, port: 443, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 2, server: ikuai.bot.nu, port: 14555, type: trojan, password: 02f0b784-1577-3d22-998a-23f372330b75, sni: windows11.dpdns.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 3, server: planb.mojcn.com, port: 16648, type: vmess, uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "%2F", headers: {Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 美国 | USA 6, server: ikuai.bot.nu, port: 11777, type: trojan, password: 7c9fea7c-8def-3dd5-853a-5844f9b04146, sni: windows11.dpdns.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 7, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 8, server: b2b1bec8-tetwg0-txkkcl-1fli7.u12.oshuawei.com, port: 443, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | USA 9, server: 154.197.88.253, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.154.203, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.155.113, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.189, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 9, server: 103.186.155.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.155.8, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.154.176, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 12, server: 103.186.154.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 13, server: 103.186.155.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 14, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 15, server: 103.186.154.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 16, server: 103.186.155.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南 | VNM 17, server: 103.186.154.185, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: GB_5db7e_0006, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: GB_5db7e_0007, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: TW_5db7e_0018, server: v11.zgtfqs.click, port: 30811, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: TW_5db7e_0019, server: 103.127.243.59, port: 56738, type: vmess, uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
-  - {name: TW_5db7e_0020, server: 103.127.243.66, port: 54291, type: vmess, uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
-  - {name: US_5db7e_0021, server: bb.bejkn.cn, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: US_5db7e_0023, server: 216.167.43.29, port: 3438, type: vmess, uuid: 01d3482e-27f5-4eac-ab5e-906787bb32ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: VN_5db7e_0026, server: 103.186.154.251, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇩🇪 德国 | DEU 3, server: 204.168.173.148, port: 2053, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇫🇷 法国 | FRA, server: 8940fcb2-tetwg0-txkkcl-1fli7.fr.oshuawei.com, port: 443, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 | HKG 3, server: planb.mojcn.com, port: 16622, type: vmess, uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "%2F", headers: {Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com}}}
+  - {name: 🇮🇳 印度 | IND, server: planb.mojcn.com, port: 16626, type: vmess, uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "%2F", headers: {Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com}}}
+  - {name: 🇯🇵 日本 | JPN, server: m.cnmjin.net, port: 16617, type: vmess, uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com}}}
+  - {name: 🇯🇵 日本 | JPN 2, server: 185.141.219.21, port: 30312, type: ss, cipher: aes-256-gcm, password: 99394cfebe6c0906}
+  - {name: 🇯🇵 日本 | JPN 4, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com}}}
+  - {name: 🇳🇱 荷兰 | NLD, server: 77.91.78.72, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇳🇱 荷兰 | NLD 2, server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: 🇳🇱 荷兰 | NLD 4, server: 82.38.31.135, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇷🇴 罗马尼亚 | ROU, server: 84.239.49.170, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: 🇷🇴 罗马尼亚 | ROU 2, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: 🇷🇴 罗马尼亚 | ROU 3, server: 84.239.49.42, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: 🇷🇴 罗马尼亚 | ROU 4, server: 84.239.49.183, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: 🇷🇴 罗马尼亚 | ROU 5, server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: 🇷🇴 罗马尼亚 | ROU 6, server: 84.239.49.219, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: 🇷🇴 罗马尼亚 | ROU 7, server: 84.239.49.239, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA, server: db6116e9-tetwg0-txkkcl-1fli7.se.oshuawei.com, port: 443, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 2, server: 115.40.28.210, port: 33918, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇺🇸 美国 | USA 3, server: 31.59.136.122, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇺🇸 美国 | USA 4, server: 5ec0a793-tetwg0-txkkcl-1fli7.sj.hyhuawei.com, port: 443, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 5, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国 | USA 7, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 | USA 8, server: ikuai.bot.nu, port: 21777, type: trojan, password: 67f4b8ff-15cf-3ec9-b09d-c31a4728c652, sni: windows11.dpdns.org, skip-cert-verify: false}
+  - {name: 🇻🇳 越南 | VNM, server: 103.186.154.250, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 2, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 3, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 4, server: 103.186.155.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 5, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 6, server: 103.186.154.165, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 7, server: 103.186.155.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 8, server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 9, server: 103.186.154.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 10, server: 103.186.155.118, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 11, server: 103.186.155.126, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 12, server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南 | VNM 13, server: 103.186.154.251, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: GB_9fb93_0006, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: GB_9fb93_0007, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW_9fb93_0018, server: v11.zgtfqs.click, port: 30811, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW_9fb93_0019, server: 103.127.243.59, port: 56738, type: vmess, uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
+  - {name: TW_9fb93_0020, server: 103.127.243.66, port: 54291, type: vmess, uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
+  - {name: US_9fb93_0021, server: bb.bejkn.cn, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: US_9fb93_0023, server: 216.167.43.29, port: 3438, type: vmess, uuid: 01d3482e-27f5-4eac-ab5e-906787bb32ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: VN_9fb93_0026, server: 103.186.154.251, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
