@@ -1,46 +1,37 @@
-  - {name: 🇨🇦 加拿大 | CAN, server: 35.183.129.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇩🇪 德国 | DEU 2, server: 3.71.109.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 德国 | DEU, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇩🇪 德国 | DEU 3, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false}
   - {name: 🇩🇪 德国 | DEU 4, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 | DEU 5, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG, server: dotu-usv1.kunlun03dns.com, port: 11128, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 2, server: cu7.ainivp.com, port: 33414, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: cu7.ainivp.com}}}
-  - {name: 🇭🇰 香港 | HKG 3, server: dotu-usv1.kunlun03dns.com, port: 11130, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 4, server: dotu-usv1.kunlun03dns.com, port: 11129, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 5, server: dotu-twv1.kunlun03dns.com, port: 11113, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 6, server: dotu-usv1.kunlun03dns.com, port: 11127, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 | HKG 7, server: dotu-twv1.kunlun03dns.com, port: 11111, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 | KOR, server: yd4.ainivp.com, port: 33204, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: yd4.ainivp.com}}}
+  - {name: 🇳🇱 荷兰 | NLD, server: ssr2.762988.xyz, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 美国 | USA, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国 | USA 2, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CA_cbdbf_0001, server: 35.183.129.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: CN_cbdbf_0002, server: dotu-hkv1.kunlun03dns.com, port: 11104, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0003, server: dotu-hkv1.kunlun03dns.com, port: 11103, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0004, server: dotu-twv1.kunlun03dns.com, port: 11111, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0005, server: dotu-hkv1.kunlun03dns.com, port: 11105, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0006, server: dotu-usv1.kunlun03dns.com, port: 11129, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0007, server: dotu-usv1.kunlun03dns.com, port: 11127, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0008, server: dotu-usv1.kunlun03dns.com, port: 11128, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0009, server: dotu-usv1.kunlun03dns.com, port: 11130, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0010, server: dotu-twv1.kunlun03dns.com, port: 11113, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0011, server: cu7.ainivp.com, port: 33414, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: cu7.ainivp.com}}}
-  - {name: CN_cbdbf_0012, server: dotu-hkv1.kunlun03dns.com, port: 11101, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_cbdbf_0013, server: yd4.ainivp.com, port: 33204, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: yd4.ainivp.com}}}
-  - {name: CN_cbdbf_0014, server: ct2.ainivp.com, port: 33411, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: ct2.ainivp.com}}}
-  - {name: CN_cbdbf_0015, server: 54344302-t9zts0-tg010c-1r7od.my.oshuawei.com, port: 31233, type: http, username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b, password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b, tls: true, skip-cert-verify: false}
-  - {name: DE_cbdbf_0017, server: 18.195.213.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: DE_cbdbf_0018, server: 3.71.109.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: ES_cbdbf_0019, server: 5.188.181.201, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: GB_cbdbf_0021, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: GB_cbdbf_0022, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: GB_cbdbf_0023, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false}
-  - {name: NL_cbdbf_0028, server: ssr2.762988.xyz, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: RO_cbdbf_0031, server: 84.239.14.158, port: 9002, type: http, tls: true, skip-cert-verify: false}
-  - {name: SC_cbdbf_0040, server: 45.130.125.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: www.app-cloud.ir}}}
-  - {name: SC_cbdbf_0041, server: 45.130.125.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.app-cloud.ir}}}
-  - {name: US_cbdbf_0042, server: 20.83.154.79, port: 7070, type: socks5, skip-cert-verify: false}
-  - {name: US_cbdbf_0043, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US_cbdbf_0045, server: 104.18.20.213, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: www.app-cloud.ir}}}
-  - {name: US_cbdbf_0046, server: 14.102.228.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: www.app-cloud.ir}}}
-  - {name: US_cbdbf_0048, server: 14.102.228.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.app-cloud.ir}}}
-  - {name: US_cbdbf_0049, server: 104.18.20.213, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.app-cloud.ir}}}
+  - {name: CA_bf907_0001, server: 35.183.129.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CN_bf907_0002, server: dotu-hkv1.kunlun03dns.com, port: 11104, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0003, server: dotu-hkv1.kunlun03dns.com, port: 11103, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0004, server: dotu-twv1.kunlun03dns.com, port: 11111, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0005, server: dotu-hkv1.kunlun03dns.com, port: 11105, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0006, server: dotu-usv1.kunlun03dns.com, port: 11129, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0007, server: dotu-usv1.kunlun03dns.com, port: 11127, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0008, server: dotu-usv1.kunlun03dns.com, port: 11128, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0009, server: dotu-usv1.kunlun03dns.com, port: 11130, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0010, server: dotu-twv1.kunlun03dns.com, port: 11113, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0011, server: cu7.ainivp.com, port: 33414, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: cu7.ainivp.com}}}
+  - {name: CN_bf907_0012, server: dotu-hkv1.kunlun03dns.com, port: 11101, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_bf907_0013, server: yd4.ainivp.com, port: 33204, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: yd4.ainivp.com}}}
+  - {name: CN_bf907_0014, server: ct2.ainivp.com, port: 33411, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: ct2.ainivp.com}}}
+  - {name: CN_bf907_0015, server: 54344302-t9zts0-tg010c-1r7od.my.oshuawei.com, port: 31233, type: http, username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b, password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: DE_bf907_0017, server: 18.195.213.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: DE_bf907_0018, server: 3.71.109.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: ES_bf907_0019, server: 5.188.181.201, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: GB_bf907_0021, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: GB_bf907_0022, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: GB_bf907_0023, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false}
+  - {name: NL_bf907_0028, server: ssr2.762988.xyz, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: RO_bf907_0031, server: 84.239.14.158, port: 9002, type: http, tls: true, skip-cert-verify: false}
+  - {name: SC_bf907_0040, server: 45.130.125.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: www.app-cloud.ir}}}
+  - {name: SC_bf907_0041, server: 45.130.125.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.app-cloud.ir}}}
+  - {name: US_bf907_0042, server: 20.83.154.79, port: 7070, type: socks5, skip-cert-verify: false}
+  - {name: US_bf907_0043, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US_bf907_0045, server: 104.18.20.213, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: www.app-cloud.ir}}}
+  - {name: US_bf907_0046, server: 14.102.228.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: www.app-cloud.ir}}}
+  - {name: US_bf907_0048, server: 14.102.228.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.app-cloud.ir}}}
+  - {name: US_bf907_0049, server: 104.18.20.213, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.app-cloud.ir}}}
