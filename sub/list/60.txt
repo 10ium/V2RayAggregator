@@ -1,18 +1,10 @@
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-  - {name: 🇯🇵 _JP_日本->🇾🇪_YE_也门, server: z-jp1.1card.cc, port: 10010, type: trojan, password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0, sni: www.cloudflare.com, skip-cert-verify: false}
+  - {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国, server: cdn.shopify.com, port: 80, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==}
   - {name: 🇺🇸 _US_美国, server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /, headers: {Host: guanwang.awsno.com}}}
-  - {name: 🇭🇰 _HK_中国香港->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本->🇧🇹_BT_BT, server: z-jp2.1card.cc, port: 10011, type: trojan, password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0, sni: www.cloudflare.com, skip-cert-verify: false}
-  - {name: 🇮🇪 _IE_爱尔兰, server: 63.32.92.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 _HK_中国香港->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇮🇪 _IE_爱尔兰 2, server: 108.129.176.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 _HK_中国香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-  - {name: 🇰🇷 _CN_中国->🇰🇷_KR_韩国, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: 🇬🇧 _GB_英国, server: 52.56.143.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 _JP_日本, server: 38.47.121.14, port: 49432, type: vmess, uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇨🇦 _CA_加拿大, server: 16.52.165.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 _KR_韩国, server: 49.254.204.134, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$}
   - {name: 🇲🇾 _MY_马来西亚, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
   - {name: 🇲🇽 _MX_墨西哥, server: 64.177.90.30, port: 8388, type: ss, cipher: aes-256-gcm, password: BWyPPTusFKhGgzKh}
-  - {name: 🇯🇵 _JP_日本->🇧🇹_BT_BT 2, server: z-jp1.1card.cc, port: 10011, type: trojan, password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0, sni: www.cloudflare.com, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本->🇾🇪_YE_也门 2, server: z-jp2.1card.cc, port: 10010, type: trojan, password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0, sni: www.cloudflare.com, skip-cert-verify: false}
-  - {name: 🇭🇰 _HK_中国香港->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 _HK_中国香港->🇺🇸_US_美国 2, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇪 _IE_爱尔兰, server: 34.244.71.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
