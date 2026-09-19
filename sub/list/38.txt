@@ -1,71 +1,67 @@
-  - {name: 🇩🇰 丹麦_091810001, server: 158.173.221.214, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: c58d16e593d44f42}
-  - {name: 🇩🇰 丹麦_091810016, server: 158.173.20.208, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇩🇰 丹麦_091810017, server: 158.173.24.73, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇷🇺 俄罗斯联邦_091810179, server: 176.32.35.44, port: 50111, type: ss, cipher: aes-256-gcm, password: 6b39ae3234dfd68b}
-  - {name: 🇷🇺 俄罗斯联邦_091810183, server: 46.17.40.234, port: 10301, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede}
-  - {name: 🇨🇦 加拿大_091810004, server: 23.162.200.198, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大_091810018 M45, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇨🇦 加拿大_091810091, server: 51.222.200.165, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大_091810092, server: 51.222.12.127, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 加拿大_091810093, server: 51.79.85.185, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 加拿大_091810094, server: 51.222.141.125, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 加拿大_091810100, server: 51.79.64.198, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 加拿大_091810101, server: 51.222.155.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大_091810102, server: 51.222.136.236, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇳 台湾_091810001, server: 7dba81fc3a0b.oylfmxz.cn, port: 443, type: vmess, uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 7dba81fc3a0b.oylfmxz.cn}}}
-  - {name: 🇨🇳 台湾_091810025, server: 36.224.185.173, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}
-  - {name: 🇨🇳 台湾_091810026, server: 36.224.185.173, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b}
-  - {name: 🇩🇪 德国_091810003, server: 209.46.102.22, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1hhrqrokj3ag}
-  - {name: 🇩🇪 德国_091810243, server: 94.249.187.46, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: rSeYcig_XBy8q3k33NpK3A}
-  - {name: 🇩🇪 德国_091810250, server: config-germany.zelnora.ir, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: VuR-wK82ssFWKyLbZAVtv6vAPY3Uh1Zt}
-  - {name: 🇸🇬 新加坡_091810001, server: 149.88.23.202, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_091810156, server: 194.233.74.160, port: 2342, type: ss, cipher: chacha20-ietf-poly1305, password: XV4bvaJIWoxl3IYEC1e6W7}
-  - {name: 🇯🇵 日本_091810001, server: 45.32.57.118, port: 4433, type: vmess, uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本_091810003, server: 84.247.155.196, port: 443, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv}
-  - {name: 未知_0918101309, server: nomino.11hi8itbaf.workers.dev, port: 443, type: vmess, uuid: 3aa71202-a099-49c1-99fc-6662f3335369, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: nomino.11hi8itbaf.workers.dev, network: ws, ws-opts: {path: /yoga-suggesting-recording-calls.trycloudflare.com/3aa71202-a099-49c1-99fc-6662f3335369-vm, headers: {Host: nomino.11hi8itbaf.workers.dev}}}
-  - {name: 🇫🇷 法国_091810001, server: 91.228.227.211, port: 23957, type: vmess, uuid: 92987ab8-0a53-4a16-8d6c-295d5df86404, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_091810002, server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_091810003, server: 84.17.41.2, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_091810004, server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_091810005, server: 38.91.107.49, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_091810013, server: 107.173.254.27, port: 15311, type: vmess, uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_091810014 M60, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 美国_091810015 M60, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 美国_091810016 M60, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 美国_091810036, server: 43.173.90.202, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: sg-proxy-2026}
-  - {name: 🇺🇸 美国_0918101917, server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_0918101918, server: 23.150.248.20, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qB2Cv9VIlujj}
-  - {name: 🇺🇸 美国_0918101920, server: 15.204.246.132, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国_0918101922, server: 15.204.233.41, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国_0918101923, server: 185.164.175.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 🇺🇸 美国_0918101943, server: 15.204.247.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国_0918101944, server: 15.204.247.206, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国_0918101946, server: 15.204.246.107, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国_0918101948, server: 132.243.175.144, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3}
-  - {name: 🇺🇸 美国_0918101949, server: 153.52.92.81, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: IXa3ylzS_jBOAsQy071tIQ}
-  - {name: 🇺🇸 美国_0918101975, server: 15.204.247.124, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 英国_091810453, server: 82.38.31.18, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810454, server: 82.38.31.17, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810455, server: 82.38.31.175, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810456, server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
-  - {name: 🇬🇧 英国_091810458, server: 82.47.186.18, port: 19290, type: ss, cipher: aes-128-gcm, password: o2rw2hICwu1blrr_gZAl2Q}
-  - {name: 🇬🇧 英国_091810461, server: 82.38.31.42, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810462, server: 82.38.31.175, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810463, server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
-  - {name: 🇬🇧 英国_091810464, server: 82.38.31.149, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810465, server: 82.38.31.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810466, server: 82.110.60.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 🇬🇧 英国_091810467, server: 82.38.31.164, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810468, server: 82.38.31.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇬🇧 英国_091810469, server: 82.47.186.18, port: 55597, type: ss, cipher: aes-128-gcm, password: o2rw2hICwu1blrr_gZAl2Q}
-  - {name: 🇬🇧 英国_091810470, server: config-england.zelnora.ir, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: VuR-wK82ssFWKyLbZAVtv6vAPY3Uh1Zt}
-  - {name: 🇳🇱 荷兰_091810157 M55, server: 193.29.139.235, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇳🇱 荷兰_091810158, server: 193.29.139.225, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇳🇱 荷兰_091810161, server: 193.29.139.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇭🇰 香港_091810103, server: 119.246.1.143, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港_091810104, server: 47.240.80.220, port: 2052, type: trojan, password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz, sni: vpn.12169.top, skip-cert-verify: false}
-  - {name: 🇭🇰 香港_091810110, server: 103.136.150.119, port: 30222, type: ss, cipher: aes-256-gcm, password: 72553320ae6bcc8f}
-  - {name: 🇭🇰 香港_091810111, server: 181.215.18.196, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: manm1wouaeic9db3}
-  - {name: 🇭🇰 香港_091810112, server: 212.192.15.231, port: 8388, type: ss, cipher: aes-256-gcm, password: Z9TvqsEkWr7P7GXe}
-  - {name: 🇲🇾 马来西亚_091810001, server: 47.250.135.244, port: 10000, type: vmess, uuid: aedc66b8-99d7-4a21-8310-61870e7f870d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇲🇾 马来西亚_091810028, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, sni: moltbot.doctoroyy.net, skip-cert-verify: false}
+  - {name: CF中转_091910116, server: 188.114.96.19, port: 80, type: vmess, uuid: 479526cd-5011-43cf-a788-504da95e07c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.}}}
+  - {name: CF中转_091910117, server: 188.114.96.19, port: 80, type: vmess, uuid: aed88e79-5762-4d2f-86fa-f438f32a7654, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.}}}
+  - {name: CF中转_0919105526, server: 172.64.80.1, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}}
+  - {name: 🇩🇰 丹麦_091910001, server: 158.173.221.214, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: c58d16e593d44f42}
+  - {name: 🇩🇰 丹麦_091910017, server: 158.173.20.208, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇩🇰 丹麦_091910018, server: 38.180.214.110, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇷🇺 俄罗斯联邦_091910177, server: 195.133.5.102, port: 10900, type: ss, cipher: aes-256-gcm, password: 895b4b796a357570}
+  - {name: 🇨🇦 加拿大_091910004 M45, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇨🇦 加拿大_091910077, server: 23.162.200.198, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大_091910078, server: 51.79.64.198, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大_091910079, server: 51.79.85.185, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大_091910080, server: 51.222.155.113, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大_091910081, server: 51.222.200.165, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大_091910082, server: 51.222.155.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大_091910097, server: yyz-ca-01.blncvpn4u.cc, port: 9443, type: ss, cipher: aes-256-gcm, password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH}
+  - {name: 🇨🇦 加拿大_091910098, server: 51.222.12.127, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大_091910099, server: 51.222.141.125, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大_091910104, server: 51.222.136.236, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇹🇷 土耳其_091910034, server: 139.28.240.68, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 德国_091910001, server: 209.46.102.22, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1hhrqrokj3ag}
+  - {name: 🇸🇬 新加坡_091910004, server: 149.88.23.202, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_091910163, server: 194.233.74.160, port: 2342, type: ss, cipher: chacha20-ietf-poly1305, password: XV4bvaJIWoxl3IYEC1e6W7}
+  - {name: 🇯🇵 日本_091910001, server: 84.247.155.196, port: 443, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv}
+  - {name: 🇯🇵 日本_091910100, server: 45.32.57.118, port: 4433, type: vmess, uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇪 爱尔兰_091910021, server: 20.238.35.153, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: QMemWid6XGtnReuo}
+  - {name: 🇮🇪 爱尔兰_091910024, server: 20.238.35.153, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LB2J8MvTt2SBgD6o}
+  - {name: 🇨🇭 瑞士_091910038, server: 212.43.158.218, port: 6, type: ss, cipher: chacha20-ietf-poly1305, password: Y231pCKoY0HN-Z-NHDFCfg}
+  - {name: 🇺🇸 美国_091910003 M60, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 美国_091910004 M60, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 美国_091910005 M60, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 美国_091910014, server: 107.174.88.128, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 063aee2ed1124285b5d8a8b049e24cba}
+  - {name: 🇺🇸 美国_091910035, server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_091910036, server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0919101956, server: 84.17.41.2, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0919101957, server: 38.91.107.49, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0919101958, server: 23.150.248.20, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qB2Cv9VIlujj}
+  - {name: 🇺🇸 美国_0919101962, server: 15.204.246.132, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国_0919101963, server: 15.204.247.206, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国_0919101964, server: 107.173.254.27, port: 15311, type: vmess, uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0919101987, server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0919101989, server: 185.164.175.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇺🇸 美国_0919101993, server: 15.204.247.244, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国_0919101994, server: 15.204.233.41, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国_0919101995, server: 15.204.246.107, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_0919102020, server: 132.243.175.144, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3}
+  - {name: 🇺🇸 美国_0919102022, server: 15.204.247.124, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国_091910450, server: 82.38.31.175, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910451, server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
+  - {name: 🇬🇧 英国_091910452, server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
+  - {name: 🇬🇧 英国_091910453, server: 82.38.31.164, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910457, server: 82.110.60.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇬🇧 英国_091910458, server: 185.137.223.71, port: 443, type: vmess, uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: renderer-stream-2-62.mirra.now, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-2-62.mirra.now}}}
+  - {name: 🇬🇧 英国_091910459, server: 82.47.186.18, port: 19290, type: ss, cipher: aes-128-gcm, password: o2rw2hICwu1blrr_gZAl2Q}
+  - {name: 🇬🇧 英国_091910462, server: 82.38.31.18, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910463, server: 82.38.31.17, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910464, server: 82.38.31.42, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910465, server: 82.38.31.175, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910466, server: 82.38.31.149, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910467, server: 82.38.31.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910468, server: 82.38.31.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇬🇧 英国_091910469, server: 82.47.186.18, port: 55597, type: ss, cipher: aes-128-gcm, password: o2rw2hICwu1blrr_gZAl2Q}
+  - {name: 🇳🇱 荷兰_091910161, server: 193.29.139.225, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇳🇱 荷兰_091910162 M55, server: 193.29.139.235, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇳🇱 荷兰_091910163, server: 193.29.139.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇳🇱 荷兰_091910164, server: 168.100.9.81, port: 443, type: vmess, uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: renderer-stream-2-62.mirra.now, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-2-62.mirra.now}}}
+  - {name: 🇭🇰 香港_091910102, server: 119.246.1.143, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇲🇾 马来西亚_091910028, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, sni: moltbot.doctoroyy.net, skip-cert-verify: false}
